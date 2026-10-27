@@ -1,0 +1,309 @@
+{
+  "formulae": [
+    {
+      "name": "docker",
+      "full_name": "docker",
+      "tap": "homebrew/core",
+      "oldnames": [],
+      "aliases": [],
+      "versioned_formulae": [],
+      "desc": "Pack, ship and run any application as a lightweight container",
+      "license": "Apache-2.0",
+      "homepage": "https://www.docker.com/",
+      "versions": {
+        "stable": "29.9.2",
+        "head": "HEAD",
+        "bottle": true
+      },
+      "urls": {
+        "stable": {
+          "url": "https://github.com/docker/cli.git",
+          "tag": "v29.9.2",
+          "revision": "a82e528901260c8df6073311379eac65f92db204",
+          "using": null,
+          "checksum": null
+        },
+        "head": {
+          "url": "https://github.com/docker/cli.git",
+          "branch": "master",
+          "using": null
+        }
+      },
+      "patches": [],
+      "local_patch_checksums": {},
+      "revision": 0,
+      "version_scheme": 0,
+      "compatibility_version": null,
+      "autobump": true,
+      "no_autobump_message": null,
+      "skip_livecheck": false,
+      "bottle": {
+        "stable": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_tahoe": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/docker/blobs/sha256:08357b0b7b943417ed081f726f0d0c18aa84c4b3b6699eb2c9090a40fc76de8e",
+              "sha256": "08357b0b7b943417ed081f726f0d0c18aa84c4b3b6699eb2c9090a40fc76de8e"
+            }
+          }
+        }
+      },
+      "pour_bottle_only_if": null,
+      "keg_only": false,
+      "keg_only_reason": null,
+      "options": [],
+      "build_dependencies": [
+        "go",
+        "go-md2man"
+      ],
+      "dependencies": [],
+      "test_dependencies": [],
+      "recommended_dependencies": [],
+      "optional_dependencies": [],
+      "no_linkage_dependencies": [],
+      "uses_from_macos": [],
+      "uses_from_macos_bounds": [],
+      "requirements": [],
+      "conflicts_with": [],
+      "conflicts_with_reasons": [],
+      "link_overwrite": [],
+      "caveats": null,
+      "installed": [
+        {
+          "sbom": "/opt/homebrew/Cellar/docker/29.9.2/sbom.spdx.json",
+          "version": "29.8.0",
+          "used_options": [],
+          "built_as_bottle": true,
+          "poured_from_bottle": true,
+          "time": 1792668456,
+          "runtime_dependencies": [],
+          "installed_on_request": true
+        },
+        {
+          "sbom": "/opt/homebrew/Cellar/docker/29.9.2/sbom.spdx.json",
+          "version": "29.9.2",
+          "used_options": [],
+          "built_as_bottle": true,
+          "poured_from_bottle": true,
+          "time": 1792668456,
+          "runtime_dependencies": [],
+          "installed_on_request": true
+        }
+      ],
+      "linked_keg": "29.8.0",
+      "pinned": true,
+      "outdated": false,
+      "deprecated": false,
+      "deprecation_date": null,
+      "deprecation_reason": null,
+      "deprecation_replacement_formula": null,
+      "deprecation_replacement_cask": null,
+      "deprecate_args": null,
+      "disabled": false,
+      "disable_date": null,
+      "disable_reason": null,
+      "disable_replacement_formula": null,
+      "disable_replacement_cask": null,
+      "disable_args": null,
+      "post_install_steps": [],
+      "post_install_defined": false,
+      "service": null,
+      "tap_git_head": "152c85d1b9fe5e586bc14ee64a31142052614d4c",
+      "ruby_source_path": "Formula/d/docker.rb",
+      "ruby_source_checksum": {
+        "sha256": "dc3510ef7d5cc047b195b325669b6cf029ff2499c6ae96c08b2a43cd62f0d539"
+      }
+    },
+    {
+      "name": "unlinked-multi",
+      "full_name": "unlinked-multi",
+      "tap": "homebrew/core",
+      "oldnames": [],
+      "aliases": [],
+      "versioned_formulae": [],
+      "desc": "Pack, ship and run any application as a lightweight container",
+      "license": "Apache-2.0",
+      "homepage": "https://www.docker.com/",
+      "versions": {
+        "stable": "29.9.2",
+        "head": "HEAD",
+        "bottle": true
+      },
+      "urls": {
+        "stable": {
+          "url": "https://github.com/docker/cli.git",
+          "tag": "v29.9.2",
+          "revision": "a82e528901260c8df6073311379eac65f92db204",
+          "using": null,
+          "checksum": null
+        },
+        "head": {
+          "url": "https://github.com/docker/cli.git",
+          "branch": "master",
+          "using": null
+        }
+      },
+      "patches": [],
+      "local_patch_checksums": {},
+      "revision": 0,
+      "version_scheme": 0,
+      "compatibility_version": null,
+      "autobump": true,
+      "no_autobump_message": null,
+      "skip_livecheck": false,
+      "bottle": {
+        "stable": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_tahoe": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/docker/blobs/sha256:08357b0b7b943417ed081f726f0d0c18aa84c4b3b6699eb2c9090a40fc76de8e",
+              "sha256": "08357b0b7b943417ed081f726f0d0c18aa84c4b3b6699eb2c9090a40fc76de8e"
+            }
+          }
+        }
+      },
+      "pour_bottle_only_if": null,
+      "keg_only": false,
+      "keg_only_reason": null,
+      "options": [],
+      "build_dependencies": [
+        "go",
+        "go-md2man"
+      ],
+      "dependencies": [],
+      "test_dependencies": [],
+      "recommended_dependencies": [],
+      "optional_dependencies": [],
+      "no_linkage_dependencies": [],
+      "uses_from_macos": [],
+      "uses_from_macos_bounds": [],
+      "requirements": [],
+      "conflicts_with": [],
+      "conflicts_with_reasons": [],
+      "link_overwrite": [],
+      "caveats": null,
+      "installed": [
+        {
+          "sbom": "/opt/homebrew/Cellar/docker/29.9.2/sbom.spdx.json",
+          "version": "29.8.0",
+          "used_options": [],
+          "built_as_bottle": true,
+          "poured_from_bottle": true,
+          "time": 1792668456,
+          "runtime_dependencies": [],
+          "installed_on_request": true
+        },
+        {
+          "sbom": "/opt/homebrew/Cellar/docker/29.9.2/sbom.spdx.json",
+          "version": "29.9.2",
+          "used_options": [],
+          "built_as_bottle": true,
+          "poured_from_bottle": true,
+          "time": 1792668456,
+          "runtime_dependencies": [],
+          "installed_on_request": true
+        }
+      ],
+      "linked_keg": null,
+      "pinned": false,
+      "outdated": false,
+      "deprecated": false,
+      "deprecation_date": null,
+      "deprecation_reason": null,
+      "deprecation_replacement_formula": null,
+      "deprecation_replacement_cask": null,
+      "deprecate_args": null,
+      "disabled": false,
+      "disable_date": null,
+      "disable_reason": null,
+      "disable_replacement_formula": null,
+      "disable_replacement_cask": null,
+      "disable_args": null,
+      "post_install_steps": [],
+      "post_install_defined": false,
+      "service": null,
+      "tap_git_head": "152c85d1b9fe5e586bc14ee64a31142052614d4c",
+      "ruby_source_path": "Formula/d/docker.rb",
+      "ruby_source_checksum": {
+        "sha256": "dc3510ef7d5cc047b195b325669b6cf029ff2499c6ae96c08b2a43cd62f0d539"
+      }
+    }
+  ],
+  "casks": [
+    {
+      "token": "legacy-renamed",
+      "full_token": "legacy-renamed",
+      "old_tokens": [],
+      "tap": "homebrew/cask",
+      "name": [
+        "Fork"
+      ],
+      "desc": "GIT client",
+      "homepage": "https://fork.dev/",
+      "url": "https://cdn.fork.dev/mac/Fork-2.70.2.dmg",
+      "url_specs": {},
+      "version": "2.70.2",
+      "autobump": true,
+      "no_autobump_message": null,
+      "skip_livecheck": false,
+      "installed": "1.0",
+      "installed_time": 1792661467,
+      "bundle_version": "2.70.2",
+      "bundle_short_version": "2.70.2",
+      "pinned": true,
+      "pinned_version": null,
+      "outdated": false,
+      "sha256": "7eb22a27a11f017d5b3ffac4650ac1eb47162bf851ff43e4425e913303222571",
+      "artifacts": [
+        {
+          "app": [
+            "Fork.app",
+            {
+              "target": "Fork Renamed.app"
+            }
+          ]
+        },
+        {
+          "app": [
+            "Helper.app"
+          ]
+        }
+      ],
+      "caveats": null,
+      "caveats_rosetta": null,
+      "depends_on": {
+        "macos": {}
+      },
+      "conflicts_with": {
+        "cask": [
+          "fork@dev"
+        ]
+      },
+      "container": null,
+      "rename": [],
+      "auto_updates": true,
+      "deprecated": false,
+      "deprecation_date": null,
+      "deprecation_reason": null,
+      "deprecation_replacement_formula": null,
+      "deprecation_replacement_cask": null,
+      "deprecate_args": null,
+      "disabled": false,
+      "disable_date": null,
+      "disable_reason": null,
+      "disable_replacement_formula": null,
+      "disable_replacement_cask": null,
+      "disable_args": null,
+      "tap_git_head": "b1406f5346f967a5b229d0d902d21f1ce1591c59",
+      "languages": [],
+      "ruby_source_path": "Casks/f/fork.rb",
+      "ruby_source_checksum": {
+        "sha256": "697c910c3c6f115a12da1e21d6d2384a94683a60b72ff5ed51762d1d7f6d086d"
+      }
+    }
+  ]
+}

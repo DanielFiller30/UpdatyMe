@@ -1,0 +1,7 @@
+{
+  "pipx_spec_version": "0.1",
+  "venvs": {
+    "black": { "metadata": { "main_package": { "package": "black", "package_version": "24.10.0", "package_or_url": "black" }, "python_version": "Python 3.13.1" } },
+    "poetry": { "metadata": { "main_package": { "package": "poetry", "package_version": "1.8.4", "package_or_url": "poetry" }, "python_version": "Python 3.13.1" } }
+  }
+}

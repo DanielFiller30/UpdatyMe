@@ -1,0 +1,121 @@
+[
+ {
+  "key": "cpython-3.16.0a1-macos-aarch64-none",
+  "version": "3.16.0a1",
+  "version_parts": {
+   "major": 3,
+   "minor": 16,
+   "patch": 0
+  },
+  "path": null,
+  "symlink": null,
+  "url": "https://releases.astral.sh/github/python-build-standalone/releases/download/20261021/cpython-3.16.0a1%2B20261021-aarch64-apple-darwin-install_only_stripped.tar.gz",
+  "os": "macos",
+  "variant": "default",
+  "implementation": "cpython",
+  "arch": "aarch64",
+  "libc": "none"
+ },
+ {
+  "key": "cpython-3.16.0a1+freethreaded-macos-aarch64-none",
+  "version": "3.16.0a1",
+  "version_parts": {
+   "major": 3,
+   "minor": 16,
+   "patch": 0
+  },
+  "path": null,
+  "symlink": null,
+  "url": "https://releases.astral.sh/github/python-build-standalone/releases/download/20261021/cpython-3.16.0a1%2B20261021-aarch64-apple-darwin-freethreaded-install_only_stripped.tar.gz",
+  "os": "macos",
+  "variant": "freethreaded",
+  "implementation": "cpython",
+  "arch": "aarch64",
+  "libc": "none"
+ },
+ {
+  "key": "cpython-3.14.9-macos-aarch64-none",
+  "version": "3.14.9",
+  "version_parts": {
+   "major": 3,
+   "minor": 14,
+   "patch": 9
+  },
+  "path": null,
+  "symlink": null,
+  "url": "https://releases.astral.sh/github/python-build-standalone/releases/download/20261021/cpython-3.14.9%2B20261021-aarch64-apple-darwin-install_only_stripped.tar.gz",
+  "os": "macos",
+  "variant": "default",
+  "implementation": "cpython",
+  "arch": "aarch64",
+  "libc": "none"
+ },
+ {
+  "key": "cpython-3.14.9+freethreaded-macos-aarch64-none",
+  "version": "3.14.9",
+  "version_parts": {
+   "major": 3,
+   "minor": 14,
+   "patch": 9
+  },
+  "path": null,
+  "symlink": null,
+  "url": "https://releases.astral.sh/github/python-build-standalone/releases/download/20261021/cpython-3.14.9%2B20261021-aarch64-apple-darwin-freethreaded-install_only_stripped.tar.gz",
+  "os": "macos",
+  "variant": "freethreaded",
+  "implementation": "cpython",
+  "arch": "aarch64",
+  "libc": "none"
+ },
+ {
+  "key": "cpython-3.12.15-macos-aarch64-none",
+  "version": "3.12.15",
+  "version_parts": {
+   "major": 3,
+   "minor": 12,
+   "patch": 15
+  },
+  "path": null,
+  "symlink": null,
+  "url": "https://releases.astral.sh/github/python-build-standalone/releases/download/20261021/cpython-3.12.15%2B20261021-aarch64-apple-darwin-install_only_stripped.tar.gz",
+  "os": "macos",
+  "variant": "default",
+  "implementation": "cpython",
+  "arch": "aarch64",
+  "libc": "none"
+ },
+ {
+  "key": "pypy-3.12.15-macos-aarch64-none",
+  "version": "3.12.15",
+  "version_parts": {
+   "major": 3,
+   "minor": 12,
+   "patch": 15
+  },
+  "path": null,
+  "symlink": null,
+  "url": "https://downloads.python.org/pypy/pypy3.12-v8.0.1-macos_arm64.tar.gz",
+  "os": "macos",
+  "variant": "default",
+  "implementation": "pypy",
+  "arch": "aarch64",
+  "libc": "none"
+ },
+ {
+  "key": "graalpy-3.12.0-macos-aarch64-none",
+  "version": "3.12.0",
+  "version_parts": {
+   "major": 3,
+   "minor": 12,
+   "patch": 0
+  },
+  "path": null,
+  "symlink": null,
+  "url": "https://github.com/oracle/graalpython/releases/download/graal-25.2.4/graalpy3.12-25.2.4-macos-aarch64.tar.gz",
+  "os": "macos",
+  "variant": "default",
+  "implementation": "graalpy",
+  "arch": "aarch64",
+  "libc": "none"
+ }
+]

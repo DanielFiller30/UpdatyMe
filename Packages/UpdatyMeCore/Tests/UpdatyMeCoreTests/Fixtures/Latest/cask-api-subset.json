@@ -1,0 +1,685 @@
+[
+ {
+  "token": "1password",
+  "full_token": "1password",
+  "name": [
+   "1Password"
+  ],
+  "version": "8.12.42",
+  "homepage": "https://1password.com/",
+  "auto_updates": true,
+  "artifacts": [
+   {
+    "uninstall": [
+     {
+      "launchctl": [
+       "2BUA8C4S2C.com.1password.browser-helper",
+       "com.1password.1password-launcher"
+      ],
+      "quit": "com.1password.1password"
+     }
+    ]
+   },
+   {
+    "app": [
+     "1Password.app"
+    ],
+    "target": "/Applications/1Password.app"
+   },
+   {
+    "zap": [
+     {
+      "trash": [
+       "~/Library/Application Scripts/2BUA8C4S2C.com.1password*",
+       "~/Library/Application Scripts/2BUA8C4S2C.com.agilebits",
+       "~/Library/Application Scripts/com.1password.1password-launcher",
+       "~/Library/Application Scripts/com.1password.browser-support",
+       "~/Library/Application Support/1Password",
+       "~/Library/Application Support/Arc/User Data/NativeMessagingHosts/com.1password.1password.json",
+       "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.1password.1password.sfl*",
+       "~/Library/Application Support/CrashReporter/1Password*",
+       "~/Library/Application Support/Google/Chrome Beta/NativeMessagingHosts/com.1password.1password.json",
+       "~/Library/Application Support/Google/Chrome Canary/NativeMessagingHosts/com.1password.1password.json",
+       "~/Library/Application Support/Google/Chrome Dev/NativeMessagingHosts/com.1password.1password.json",
+       "~/Library/Application Support/Google/Chrome/NativeMessagingHosts/com.1password.1password.json",
+       "~/Library/Application Support/Microsoft Edge Beta/NativeMessagingHosts/com.1password.1password.json",
+       "~/Library/Application Support/Microsoft Edge Canary/NativeMessagingHosts/com.1password.1password.json",
+       "~/Library/Application Support/Microsoft Edge Dev/NativeMessagingHosts/com.1password.1password.json",
+       "~/Library/Application Support/Microsoft Edge/NativeMessagingHosts/com.1password.1password.json",
+       "~/Library/Application Support/Mozilla/NativeMessagingHosts/com.1password.1password.json",
+       "~/Library/Application Support/Vivaldi/NativeMessagingHosts/com.1password.1password.json",
+       "~/Library/Containers/2BUA8C4S2C.com.1password.browser-helper",
+       "~/Library/Containers/com.1password.1password*",
+       "~/Library/Containers/com.1password.browser-support",
+       "~/Library/Group Containers/2BUA8C4S2C.com.1password",
+       "~/Library/Group Containers/2BUA8C4S2C.com.agilebits",
+       "~/Library/Logs/1Password",
+       "~/Library/Preferences/com.1password.1password.plist",
+       "~/Library/Preferences/group.com.1password.plist",
+       "~/Library/Saved Application State/com.1password.1password.savedState"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "token": "1password@beta",
+  "full_token": "1password@beta",
+  "name": [
+   "1Password"
+  ],
+  "version": "8.12.44-25.BETA",
+  "homepage": "https://1password.com/",
+  "auto_updates": true,
+  "artifacts": [
+   {
+    "uninstall": [
+     {
+      "launchctl": [
+       "2BUA8C4S2C.com.1password.browser-helper",
+       "com.1password.1password-launcher"
+      ],
+      "quit": "com.1password.1password"
+     }
+    ]
+   },
+   {
+    "app": [
+     "1Password.app"
+    ],
+    "target": "/Applications/1Password.app"
+   },
+   {
+    "zap": [
+     {
+      "trash": [
+       "~/Library/Application Scripts/2BUA8C4S2C.com.1password*",
+       "~/Library/Application Scripts/2BUA8C4S2C.com.agilebits",
+       "~/Library/Application Scripts/com.1password.1password-launcher",
+       "~/Library/Application Scripts/com.1password.browser-support",
+       "~/Library/Application Support/1Password",
+       "~/Library/Application Support/Arc/User Data/NativeMessagingHosts/com.1password.1password.json",
+       "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.1password.1password.sfl*",
+       "~/Library/Application Support/CrashReporter/1Password*",
+       "~/Library/Application Support/Google/Chrome Beta/NativeMessagingHosts/com.1password.1password.json",
+       "~/Library/Application Support/Google/Chrome Canary/NativeMessagingHosts/com.1password.1password.json",
+       "~/Library/Application Support/Google/Chrome Dev/NativeMessagingHosts/com.1password.1password.json",
+       "~/Library/Application Support/Google/Chrome/NativeMessagingHosts/com.1password.1password.json",
+       "~/Library/Application Support/Microsoft Edge Beta/NativeMessagingHosts/com.1password.1password.json",
+       "~/Library/Application Support/Microsoft Edge Canary/NativeMessagingHosts/com.1password.1password.json",
+       "~/Library/Application Support/Microsoft Edge Dev/NativeMessagingHosts/com.1password.1password.json",
+       "~/Library/Application Support/Microsoft Edge/NativeMessagingHosts/com.1password.1password.json",
+       "~/Library/Application Support/Mozilla/NativeMessagingHosts/com.1password.1password.json",
+       "~/Library/Application Support/Vivaldi/NativeMessagingHosts/com.1password.1password.json",
+       "~/Library/Containers/2BUA8C4S2C.com.1password.browser-helper",
+       "~/Library/Containers/com.1password.1password*",
+       "~/Library/Containers/com.1password.browser-support",
+       "~/Library/Group Containers/2BUA8C4S2C.com.1password",
+       "~/Library/Group Containers/2BUA8C4S2C.com.agilebits",
+       "~/Library/Logs/1Password",
+       "~/Library/Preferences/com.1password.1password.plist",
+       "~/Library/Preferences/group.com.1password.plist",
+       "~/Library/Saved Application State/com.1password.1password.savedState"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "token": "1password@nightly",
+  "full_token": "1password@nightly",
+  "name": [
+   "1Password Nightly"
+  ],
+  "version": "latest",
+  "homepage": "https://1password.com/",
+  "auto_updates": null,
+  "artifacts": [
+   {
+    "app": [
+     "1Password.app"
+    ],
+    "target": "/Applications/1Password.app"
+   },
+   {
+    "zap": [
+     {
+      "trash": [
+       "~/Library/Application Scripts/2BUA8C4S2C.com.1password",
+       "~/Library/Application Scripts/2BUA8C4S2C.com.1password.browser-helper",
+       "~/Library/Application Scripts/com.1password.1password-launcher",
+       "~/Library/Application Scripts/com.1password.browser-support",
+       "~/Library/Application Support/1Password",
+       "~/Library/Application Support/CrashReporter/1Password*.plist",
+       "~/Library/Containers/2BUA8C4S2C.com.1password.browser-helper",
+       "~/Library/Containers/com.1password.1password-launcher",
+       "~/Library/Containers/com.1password.browser-support",
+       "~/Library/Group Containers/*.com.1password",
+       "~/Library/Group Containers/*.com.agilebits",
+       "~/Library/Logs/DiagnosticReports/1Password*",
+       "~/Library/Preferences/*1password.plist",
+       "~/Library/Saved Application State/com.1password.1password.savedState"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "token": "alex313031-thorium",
+  "full_token": "alex313031-thorium",
+  "name": [
+   "Thorium"
+  ],
+  "version": "M138.0.7204.303",
+  "homepage": "https://thorium.rocks/",
+  "auto_updates": null,
+  "artifacts": [
+   {
+    "app": [
+     "Thorium.app",
+     {
+      "target": "Thorium Browser.app"
+     }
+    ],
+    "target": "/Applications/Thorium Browser.app"
+   },
+   {
+    "command_wrapper": [
+     "thorium",
+     {
+      "executable": "$APPDIR/Thorium Browser.app/Contents/MacOS/Thorium"
+     }
+    ],
+    "target": "$HOMEBREW_PREFIX/bin/thorium"
+   },
+   {
+    "zap": [
+     {
+      "trash": [
+       "~/Library/Application Support/Thorium",
+       "~/Library/Caches/Thorium",
+       "~/Library/Preferences/org.chromium.Thorium.plist",
+       "~/Library/Saved Application State/org.chromium.Thorium.savedState"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "token": "android-studio",
+  "full_token": "android-studio",
+  "name": [
+   "Android Studio"
+  ],
+  "version": "2026.2.1.8,rabbit1",
+  "homepage": "https://developer.android.com/studio/",
+  "auto_updates": true,
+  "artifacts": [
+   {
+    "uninstall": [
+     {
+      "quit": "com.google.android.studio"
+     }
+    ]
+   },
+   {
+    "app": [
+     "Android Studio.app"
+    ],
+    "target": "/Applications/Android Studio.app"
+   },
+   {
+    "binary": [
+     "$APPDIR/Android Studio.app/Contents/MacOS/studio"
+    ],
+    "target": "$HOMEBREW_PREFIX/bin/studio"
+   },
+   {
+    "zap": [
+     {
+      "trash": [
+       "~/.android",
+       "~/Library/Android/sdk",
+       "~/Library/Application Support/Google/AndroidStudio2026.2",
+       "~/Library/Caches/Google/AndroidStudio2026.2",
+       "~/Library/Logs/Google/AndroidStudio2026.2",
+       "~/Library/Preferences/com.android.Emulator.plist",
+       "~/Library/Preferences/com.google.android.studio.plist",
+       "~/Library/Saved Application State/com.google.android.studio.savedState"
+      ],
+      "rmdir": [
+       "~/AndroidStudioProjects",
+       "~/Library/Android"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "token": "android-studio-preview@beta",
+  "full_token": "android-studio-preview@beta",
+  "name": [
+   "Android Studio Preview (Beta)"
+  ],
+  "version": "2026.2.2.6,rabbit2-rc1",
+  "homepage": "https://developer.android.com/studio/preview/",
+  "auto_updates": true,
+  "artifacts": [
+   {
+    "uninstall": [
+     {
+      "quit": "com.google.android.studio"
+     }
+    ]
+   },
+   {
+    "app": [
+     "Android Studio.app",
+     {
+      "target": "Android Studio Preview Beta.app"
+     }
+    ],
+    "target": "/Applications/Android Studio Preview Beta.app"
+   },
+   {
+    "binary": [
+     "$APPDIR/Android Studio Preview Beta.app/Contents/MacOS/studio",
+     {
+      "target": "studio-beta"
+     }
+    ],
+    "target": "$HOMEBREW_PREFIX/bin/studio-beta"
+   },
+   {
+    "zap": [
+     {
+      "trash": [
+       "~/.android",
+       "~/Library/Android/sdk",
+       "~/Library/Application Support/Google/AndroidStudioPreview2026.2",
+       "~/Library/Caches/Google/AndroidStudioPreview2026.2",
+       "~/Library/Logs/Google/AndroidStudioPreview2026.2",
+       "~/Library/Preferences/com.android.Emulator.plist",
+       "~/Library/Preferences/com.google.android.studio-EAP.plist",
+       "~/Library/Saved Application State/com.google.android.studio-EAP.savedState"
+      ],
+      "rmdir": [
+       "~/AndroidStudioProjects",
+       "~/Library/Android"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "token": "claude",
+  "full_token": "claude",
+  "name": [
+   "Claude"
+  ],
+  "version": "3.6556.2,20c019a1e61fa5b687616af57d31f97bb3181723",
+  "homepage": "https://claude.com/download",
+  "auto_updates": true,
+  "artifacts": [
+   {
+    "uninstall": [
+     {
+      "quit": [
+       "com.anthropic.claudefordesktop",
+       "com.anthropic.claudefordesktop.helper"
+      ]
+     }
+    ]
+   },
+   {
+    "app": [
+     "Claude.app"
+    ],
+    "target": "/Applications/Claude.app"
+   },
+   {
+    "zap": [
+     {
+      "trash": [
+       "~/Library/Application Support/Claude",
+       "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.anthropic.claudefordesktop.sfl*",
+       "~/Library/Caches/com.anthropic.claudefordesktop",
+       "~/Library/Caches/com.anthropic.claudefordesktop.ShipIt",
+       "~/Library/HTTPStorages/com.anthropic.claudefordesktop",
+       "~/Library/Logs/Claude",
+       "~/Library/Preferences/com.anthropic.claudefordesktop.plist",
+       "~/Library/Saved Application State/com.anthropic.claudefordesktop.savedState"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "token": "docker-desktop",
+  "full_token": "docker-desktop",
+  "name": [
+   "Docker Desktop",
+   "Docker Community Edition",
+   "Docker CE"
+  ],
+  "version": "4.96.3,244472",
+  "homepage": "https://www.docker.com/products/docker-desktop",
+  "auto_updates": true,
+  "artifacts": [
+   {
+    "uninstall": [
+     {
+      "launchctl": [
+       "com.docker.helper",
+       "com.docker.socket",
+       "com.docker.vmnetd"
+      ],
+      "quit": [
+       "com.docker.docker",
+       "com.electron.dockerdesktop"
+      ],
+      "delete": [
+       "/Library/PrivilegedHelperTools/com.docker.socket",
+       "/Library/PrivilegedHelperTools/com.docker.vmnetd"
+      ],
+      "rmdir": "~/.docker/bin"
+     }
+    ]
+   },
+   {
+    "app": [
+     "Docker.app"
+    ],
+    "target": "/Applications/Docker.app"
+   },
+   {
+    "binary": [
+     "$APPDIR/Docker.app/Contents/Resources/bin/docker-credential-desktop",
+     {
+      "target": "/usr/local/bin/docker-credential-desktop"
+     }
+    ],
+    "target": "/usr/local/bin/docker-credential-desktop"
+   },
+   {
+    "binary": [
+     "$APPDIR/Docker.app/Contents/Resources/bin/docker-credential-osxkeychain",
+     {
+      "target": "/usr/local/bin/docker-credential-osxkeychain"
+     }
+    ],
+    "target": "/usr/local/bin/docker-credential-osxkeychain"
+   },
+   {
+    "binary": [
+     "$APPDIR/Docker.app/Contents/Resources/bin/kubectl",
+     {
+      "target": "/usr/local/bin/kubectl.docker"
+     }
+    ],
+    "target": "/usr/local/bin/kubectl.docker"
+   },
+   {
+    "binary": [
+     "$APPDIR/Docker.app/Contents/Resources/cli-plugins/docker-compose",
+     {
+      "target": "/usr/local/cli-plugins/docker-compose"
+     }
+    ],
+    "target": "/usr/local/cli-plugins/docker-compose"
+   },
+   {
+    "binary": [
+     "$APPDIR/Docker.app/Contents/Resources/bin/docker",
+     {
+      "target": "/usr/local/bin/docker"
+     }
+    ],
+    "target": "/usr/local/bin/docker"
+   },
+   {
+    "bash_completion": [
+     "$APPDIR/Docker.app/Contents/Resources/etc/docker.bash-completion"
+    ],
+    "target": "$HOMEBREW_PREFIX/etc/bash_completion.d/docker"
+   },
+   {
+    "bash_completion": [
+     "$APPDIR/Docker.app/Contents/Resources/etc/docker-compose.bash-completion"
+    ],
+    "target": "$HOMEBREW_PREFIX/etc/bash_completion.d/docker-compose"
+   },
+   {
+    "zsh_completion": [
+     "$APPDIR/Docker.app/Contents/Resources/etc/docker-compose.zsh-completion"
+    ],
+    "target": "$HOMEBREW_PREFIX/share/zsh/site-functions/_docker-compose"
+   },
+   {
+    "zsh_completion": [
+     "$APPDIR/Docker.app/Contents/Resources/etc/docker.zsh-completion"
+    ],
+    "target": "$HOMEBREW_PREFIX/share/zsh/site-functions/_docker"
+   },
+   {
+    "fish_completion": [
+     "$APPDIR/Docker.app/Contents/Resources/etc/docker-compose.fish-completion"
+    ],
+    "target": "$HOMEBREW_PREFIX/share/fish/vendor_completions.d/docker-compose.fish"
+   },
+   {
+    "fish_completion": [
+     "$APPDIR/Docker.app/Contents/Resources/etc/docker.fish-completion"
+    ],
+    "target": "$HOMEBREW_PREFIX/share/fish/vendor_completions.d/docker.fish"
+   },
+   {
+    "postflight_steps": [
+     {
+      "steps": [
+       {
+        "source": {
+         "path": "{{appdir}}/Docker.app/Contents/Resources/bin/kubectl"
+        },
+        "target": {
+         "path": "/usr/local/bin/kubectl"
+        },
+        "force": true,
+        "uninstall": true,
+        "sudo": "if_needed",
+        "guards": [
+         {
+          "path": "/usr/local/bin/kubectl",
+          "condition": "unless_exists",
+          "id": "1"
+         }
+        ],
+        "type": "symlink"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "zap": [
+     {
+      "trash": [
+       "/usr/local/bin/docker-compose.backup",
+       "/usr/local/bin/docker.backup",
+       "~/.docker",
+       "~/Library/Application Scripts/com.docker.helper",
+       "~/Library/Application Scripts/group.com.docker",
+       "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.docker.helper.sfl*",
+       "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.electron.dockerdesktop.sfl*",
+       "~/Library/Application Support/com.bugsnag.Bugsnag/com.docker.docker",
+       "~/Library/Application Support/Docker Desktop",
+       "~/Library/Application Support/docker-secrets-engine",
+       "~/Library/Caches/com.docker.docker",
+       "~/Library/Caches/com.plausiblelabs.crashreporter.data/com.docker.docker",
+       "~/Library/Caches/Docker Desktop",
+       "~/Library/Caches/docker-secrets-engine",
+       "~/Library/Caches/KSCrashReports/Docker",
+       "~/Library/Containers/com.docker.docker",
+       "~/Library/Containers/com.docker.helper",
+       "~/Library/Group Containers/group.com.docker",
+       "~/Library/HTTPStorages/com.docker.docker",
+       "~/Library/HTTPStorages/com.docker.docker.binarycookies",
+       "~/Library/Logs/Docker Desktop",
+       "~/Library/Preferences/com.docker.docker.plist",
+       "~/Library/Preferences/com.electron.docker-frontend.plist",
+       "~/Library/Preferences/com.electron.dockerdesktop.plist",
+       "~/Library/Saved Application State/com.electron.docker-frontend.savedState",
+       "~/Library/Saved Application State/com.electron.dockerdesktop.savedState"
+      ],
+      "rmdir": [
+       "~/Library/Caches/com.plausiblelabs.crashreporter.data",
+       "~/Library/Caches/KSCrashReports"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "token": "spotify",
+  "full_token": "spotify",
+  "name": [
+   "Spotify"
+  ],
+  "version": "1.3.6.1921",
+  "homepage": "https://www.spotify.com/",
+  "auto_updates": true,
+  "artifacts": [
+   {
+    "uninstall": [
+     {
+      "launchctl": [
+       "*.spotify.client.*",
+       "com.spotify.client.startuphelper",
+       "com.spotify.webhelper"
+      ],
+      "quit": "com.spotify.client"
+     }
+    ]
+   },
+   {
+    "app": [
+     "Spotify.app"
+    ],
+    "target": "/Applications/Spotify.app"
+   },
+   {
+    "zap": [
+     {
+      "trash": [
+       "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.spotify.client.startuphelper.sfl*",
+       "~/Library/Application Support/Spotify",
+       "~/Library/Caches/com.spotify.client",
+       "~/Library/Caches/com.spotify.client.helper",
+       "~/Library/Cookies/com.spotify.client.binarycookies",
+       "~/Library/HTTPStorages/com.spotify.client",
+       "~/Library/HTTPStorages/com.spotify.client.helper",
+       "~/Library/Logs/Spotify",
+       "~/Library/Preferences/com.spotify.client.helper.plist",
+       "~/Library/Preferences/com.spotify.client.plist",
+       "~/Library/Saved Application State/com.spotify.client.savedState",
+       "~/Library/WebKit/com.spotify.client"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "token": "thorium",
+  "full_token": "thorium",
+  "name": [
+   "Thorium Reader"
+  ],
+  "version": "3.5.1",
+  "homepage": "https://www.edrlab.org/software/thorium-reader/",
+  "auto_updates": null,
+  "artifacts": [
+   {
+    "app": [
+     "Thorium.app"
+    ],
+    "target": "/Applications/Thorium.app"
+   },
+   {
+    "zap": [
+     {
+      "trash": [
+       "~/Library/Application Support/EDRLab.ThoriumReader",
+       "~/Library/Preferences/io.github.edrlab.thorium.plist"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "token": "visual-studio-code",
+  "full_token": "visual-studio-code",
+  "name": [
+   "Microsoft Visual Studio Code",
+   "VS Code"
+  ],
+  "version": "1.143.1",
+  "homepage": "https://code.visualstudio.com/",
+  "auto_updates": true,
+  "artifacts": [
+   {
+    "uninstall": [
+     {
+      "launchctl": "com.microsoft.VSCode.ShipIt",
+      "quit": "com.microsoft.VSCode"
+     }
+    ]
+   },
+   {
+    "app": [
+     "Visual Studio Code.app"
+    ],
+    "target": "/Applications/Visual Studio Code.app"
+   },
+   {
+    "binary": [
+     "$APPDIR/Visual Studio Code.app/Contents/Resources/app/bin/code"
+    ],
+    "target": "$HOMEBREW_PREFIX/bin/code"
+   },
+   {
+    "binary": [
+     "$APPDIR/Visual Studio Code.app/Contents/Resources/app/bin/code-tunnel"
+    ],
+    "target": "$HOMEBREW_PREFIX/bin/code-tunnel"
+   },
+   {
+    "zap": [
+     {
+      "trash": [
+       "~/.vscode",
+       "~/Library/Application Support/Code",
+       "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.microsoft.vscode.sfl*",
+       "~/Library/Caches/com.microsoft.VSCode",
+       "~/Library/Caches/com.microsoft.VSCode.ShipIt",
+       "~/Library/HTTPStorages/com.microsoft.VSCode",
+       "~/Library/Preferences/ByHost/com.microsoft.VSCode.ShipIt.*.plist",
+       "~/Library/Preferences/com.microsoft.VSCode.helper.plist",
+       "~/Library/Preferences/com.microsoft.VSCode.plist",
+       "~/Library/Saved Application State/com.microsoft.VSCode.savedState"
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

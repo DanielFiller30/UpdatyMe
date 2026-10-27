@@ -1,0 +1,7 @@
+ripgrep v14.1.1:
+    rg
+cargo-edit v0.13.0:
+    cargo-add
+    cargo-rm
+local-tool v0.1.0 (/Users/fixture/src/local-tool):
+    local-tool

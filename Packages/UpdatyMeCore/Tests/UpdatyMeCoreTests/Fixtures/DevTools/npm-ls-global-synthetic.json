@@ -1,0 +1,9 @@
+{
+  "name": "lib",
+  "dependencies": {
+    "corepack": { "version": "0.36.0", "overridden": false },
+    "npm": { "version": "11.19.1", "overridden": false },
+    "@vue/cli": { "version": "5.0.8", "overridden": false },
+    "linked-tool": { "version": "1.0.0", "resolved": "file:../../../../Projects/linked-tool", "overridden": false }
+  }
+}

@@ -1,0 +1,40 @@
+{
+ "result": [
+  {
+   "major_version": 27,
+   "term_of_support": "STS",
+   "maintained": true
+  },
+  {
+   "major_version": 25,
+   "term_of_support": "LTS",
+   "maintained": true
+  },
+  {
+   "major_version": 21,
+   "term_of_support": "LTS",
+   "maintained": true
+  },
+  {
+   "major_version": 17,
+   "term_of_support": "LTS",
+   "maintained": true
+  },
+  {
+   "major_version": 11,
+   "term_of_support": "LTS",
+   "maintained": true
+  },
+  {
+   "major_version": 8,
+   "term_of_support": "LTS",
+   "maintained": true
+  },
+  {
+   "major_version": 7,
+   "term_of_support": "LTS",
+   "maintained": true
+  }
+ ],
+ "message": ""
+}

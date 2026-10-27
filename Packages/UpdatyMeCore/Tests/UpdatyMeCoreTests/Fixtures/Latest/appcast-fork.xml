@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Fork Changelog</title>
+    <link>https://fork.dev/update/feed.xml</link>
+    <description>Most recent changes with links to updates</description>
+    <language>en</language>
+
+    <item>
+        <title>Fork 2.71</title>
+        <description>
+            <![CDATA[
+            <ul>
+                <li>Workspaces are now per window: each window shows its own workspace</li>
+                <li>Cmd+click to open workspace in a new window</li>
+                <li>Repository settings and issue tracker rules are shared between worktrees</li>
+                <li>Improved: Top shadow in diff view when scrolled</li>
+                <li>Improved: Faster removal of worktrees</li>
+                <li>Improved: Support ssh.bitbucket.org remote host</li>
+                <li>Fixed: Double-click stages the selected file instead of the clicked one</li>
+                <li>Fixed: Parent repository link not visible for submodules opened in a worktree</li>
+            </ul>
+            ]]>
+        </description>
+        <pubDate>Fri, 23 Oct 2026 10:50:00 +0000</pubDate>
+        <enclosure url="https://cdn.fork.dev/mac/Fork-2.71.1.dmg" sparkle:version="2.71.0" type="application/octet-stream"/>
+    </item>
+
+    <item>
+        <title>Fork 2.70</title>
+        <description>
+            <![CDATA[
+            <ul>
+                <li>Vertical tabs</li>
+                <li>Add Cursor as an AI agent for commit messages</li>
+                <li>Fixed: Crash when deleting worktree from terminal</li>
+                <li>Fixed: Detect cherry-pick and revert state with the reftable backend</li>
+                <li>Fixed: Incorrect rename detection for tiny files</li>
+                <li>Fixed: Backticks in AI-generated commit messages</li>
+            </ul>
+            ]]>
+        </description>
+        <pubDate>Fri, 04 Sep 2026 10:50:00 +0000</pubDate>
+        <enclosure url="https://cdn.fork.dev/mac/Fork-2.70.2.dmg" sparkle:version="2.70.0" type="application/octet-stream"/>
+    </item>
+
+    <item>
+        <title>Fork 2.69</title>
+        <description>
+            <![CDATA[
+            <ul>
+                <li>Add "Save as Patch" option to stash context menu</li>
+                <li>Show warning icon for active branch with invalid upstream</li>
+                <li>Show submodule icon instead of blank file icon in file views</li>
+                <li>Improved: Re-apply context search when switching files in diff view</li>
+                <li>Fixed: Overlapping rows in commit list after fetch</li>
+                <li>Fixed: Submodule diff when the commit is missing</li>
+                <li>Fixed: Crash in binary image diff rendering</li>
+            </ul>
+            ]]>
+        </description>
+        <pubDate>Fri, 10 Jul 2026 10:50:00 +0000</pubDate>
+        <enclosure url="https://cdn.fork.dev/mac/Fork-2.69.0.dmg" sparkle:version="2.69.0" type="application/octet-stream"/>
+    </item>
+
+    <item>
+        <title>Fork 2.68</title>
+        <description>
+            <![CDATA[
+            <ul>
+                <li>Extend tab context menu: Rename, select color, Open in Terminal, Show in Finder</li>
+                <li>Checkout remote branch as worktree</li>
+                <li>Improved: Support pixel diff for 16-bit-RGBA images</li>
+                <li>Fixed: Option+Command+Return (Commit & Push) shortcut not working</li>
+                <li>Fixed: Search overlay remains visible when diff view is hidden</li>
+                <li>Fixed: Out of memory on showing content of very large minified files</li>
+            </ul>
+            ]]>
+        </description>
+        <pubDate>Fri, 19 Jun 2026 10:50:00 +0000</pubDate>
+        <enclosure url="https://cdn.fork.dev/mac/Fork-2.68.1.dmg" sparkle:version="2.68.0" type="application/octet-stream"/>
+    </item>
+
+    <item>
+        <title>Fork 2.67</title>
+        <description>
+            <![CDATA[
+            <ul>
+                <li>New keyboard shortcut for create tag: Shift+Cmd+G</li>
+                <li>Restore closed tabs with Shift+Cmd+T</li>
+                <li>Show commit details popup when press Spacebar</li>
+                <li>Cmd+Up/Down shortcuts for prev/next chunk navigation</li>
+                <li>Tab/Shift-Tab navigation between commit list and commit details</li>
+                <li>Remember collapsed commits between restarts</li>
+                <li>Improved: Bisect UX (button reordering, skip labels, auto-select HEAD)</li>
+                <li>Improved: Snapping for split view in stage view</li>
+                <li>Fixed: Select Left button not clickable in merge conflict editor</li>
+            </ul>
+            ]]>
+        </description>
+        <pubDate>Fri, 15 May 2026 10:50:00 +0000</pubDate>
+        <enclosure url="https://cdn.fork.dev/mac/Fork-2.67.1.dmg" sparkle:version="2.67.0" type="application/octet-stream"/>
+    </item>
+
+    <item>
+        <title>Fork 2.66</title>
+        <description>
+            <![CDATA[
+            <ul>
+                <li>Collapsible commit details (Cmd+D)</li>
+                <li>Keyboard navigation in sidebar (arrow keys, Tab to switch between sidebar and commit list)</li>
+                <li>Show if cherry pick or revert can be done without conflicts</li>
+                <li>Add "Copy Repository Path" to sidebar repository menu</li>
+                <li>Fixed 2.66.4: Cmd+Enter commit shortcut is broken for some users</li>
+                <li>Fixed 2.66.4: Submodule revision not updated after resolving merge conflict</li>
+            </ul>
+            ]]>
+        </description>
+        <pubDate>Thu, 10 Apr 2026 10:50:00 +0000</pubDate>
+        <enclosure url="https://cdn.fork.dev/mac/Fork-2.66.6.dmg" sparkle:version="2.66.4" type="application/octet-stream"/>
+    </item>
+
+    <item>
+        <title>Fork 2.65</title>
+        <description>
+            <![CDATA[
+            <ul>
+                <li>Add .gitignore template picker</li>
+                <li>Improved: Add 4 more graph colors</li>
+                <li>Improved: Disambiguate worktree tabs and sidebar items with same folder name</li>
+                <li>Improved: Submodule handling in worktrees</li>
+                <li>Fixed: Submodule add not updating nested submodules</li>
+                <li>Fixed: Reference validation warnings for some users</li>
+            </ul>
+            ]]>
+        </description>
+        <pubDate>Fri, 20 Mar 2026 10:50:00 +0000</pubDate>
+        <enclosure url="https://cdn.fork.dev/mac/Fork-2.65.1.dmg" sparkle:version="2.65.0" type="application/octet-stream"/>
+    </item>
+
+    <item>
+        <title>Fork 2.64</title>
+        <description>
+            <![CDATA[
+            <ul>
+                <li>Add support for reftables</li>
+                <li>Ability to edit default AI agent requests in Integration preferences</li>
+                <li>Add Codex support for AI commit messages and code review</li>
+                <li>Cmd+V to apply patch from clipboard</li>
+                <li>Improved: Add clickable refs to bisect status bar</li>
+                <li>Improved: focus next bisect commit after good/bad/skip</li>
+            </ul>
+            ]]>
+        </description>
+        <pubDate>Fri, 06 Mar 2026 10:50:00 +0000</pubDate>
+        <enclosure url="https://cdn.fork.dev/mac/Fork-2.64.3.dmg" sparkle:version="2.64.0" type="application/octet-stream"/>
+    </item>
+
+    <item>
+        <title>Fork 2.63</title>
+        <description>
+            <![CDATA[
+            <ul>
+                <li>Add `--update-refs` support to Interactive Rebase</li>
+                <li>Add "Create Worktree" dialog, also available via Quick Launch</li>
+                <li>Option to remove corresponding worktree when deleting a branch</li>
+                <li>Show parent repo name in tab header for worktrees</li>
+                <li>Improved: Show Worktrees before Pinned items in sidebar</li>
+                <li>Fixed: Ahead/behind info not shown for branches with worktrees</li>
+                <li>Hotfix 2.63.1: Error when switching ssh keys</li>
+                <li>Hotfix 2.63.2: Window becomes too wide with long branch names</li>
+            </ul>
+            ]]>
+        </description>
+        <pubDate>Fri, 13 Feb 2026 10:50:00 +0000</pubDate>
+        <enclosure url="https://cdn.fork.dev/mac/Fork-2.63.2.dmg" sparkle:version="2.63.2" type="application/octet-stream"/>
+    </item>
+
+    <item>
+        <title>Fork 2.62</title>
+        <description>
+            <![CDATA[
+            <ul>
+                <li>Show ahead/behind counts on pull/push toolbar buttons</li>
+                <li>Add "Select Stale Local Branches" menu item to sidebar</li>
+                <li>Add "Copy Path" to worktree and submodule context menus</li>
+                <li>Add option to enable verbose git output to preferences</li>
+                <li>Improved: Updated fetch, pull, push toolbar button icons</li>
+                <li>Improved: Replace +/- icons with arrows in merge points</li>
+                <li>Hotfix 2.62.1: Sidebar is cut on macOS Tahoe 26.2</li>
+            </ul>
+            ]]>
+        </description>
+        <pubDate>Fri, 23 Jan 2026 10:50:00 +0000</pubDate>
+        <enclosure url="https://cdn.fork.dev/mac/Fork-2.62.1.dmg" sparkle:version="2.62.1" type="application/octet-stream"/>
+    </item>
+
+    <item>
+        <title>Fork 2.61</title>
+        <description>
+            <![CDATA[
+            <ul>
+                <li>Add `--update-refs` option to rebase dialog</li>
+                <li>Add `Cmd+Shift+.` shortcut to toggle reflog or ignored files depending on active view</li>
+                <li>Show avatars in interactive rebase</li>
+                <li>Improved: AI code review can now review SHA ranges</li>
+                <li>Improved: Perform worktree removal on background thread</li>
+                <li>Improved: Updated app icon for dark theme</li>
+                <li>Improved: Hide scroll minimap when document fits within viewport</li>
+                <li>Note: Minimum macOS is now 10.15 (Catalina)</li>
+            </ul>
+            ]]>
+        </description>
+        <pubDate>Fri, 09 Jan 2026 10:50:00 +0000</pubDate>
+        <enclosure url="https://cdn.fork.dev/mac/Fork-2.61.0.dmg" sparkle:version="2.61.0" type="application/octet-stream"/>
+    </item>
+
+    <item>
+        <title>Fork 2.60</title>
+        <description>
+            <![CDATA[
+            <ul>
+                <li>⭐️ Claude Code Review for branches (requires Claude Code CLI at ~/.local/bin/claude or /opt/homebrew/bin/claude)</li>
+                <li>Add support for multiple source code directories!</li>
+                <li>Add Antigravity to open-in dropdown</li>
+                <li>Improved: Add history for a hunk to File Tree context menu</li>
+                <li>Fixed: Incomplete Bitbucket repository list</li>
+                <li>Fixed: Error when unstaging multiple files when amending</li>
+                <li>Hotfix 2.60.4: High memory usage with default source directory set to home directory</li>
+            </ul>
+            ]]>
+        </description>
+        <pubDate>Fri, 28 Nov 2025 10:50:00 +0000</pubDate>
+        <enclosure url="https://cdn.fork.dev/mac/Fork-2.60.4.dmg" sparkle:version="2.60.4" type="application/octet-stream"/>
+    </item>
+
+    <item>
+        <title>Fork 2.59</title>
+        <description>
+            <![CDATA[
+            <ul>
+                <li>File History for a selected piece of code (available in diff context menu)</li>
+                <li>Branch code review and generate commit message with Claude</li>
+                <li>Show worktree icon for branches checked out in other worktrees</li>
+                <li>Improved: Reduce blinking when when staging/unstaging</li>
+                <li>Improved: Make fetch output less noisy</li>
+                <li>Fixed: In some cases, incorrect conflict recognition for rebase</li>
+                <li>Fixed: Welcome screen doesn't appear on first run on macOS Tahoe</li>
+                <li>Hotfix 2.59.2: Crash on opening new tab for some users</li>
+            </ul>
+            ]]>
+        </description>
+        <pubDate>Fri, 7 Nov 2025 10:50:00 +0000</pubDate>
+        <enclosure url="https://cdn.fork.dev/mac/Fork-2.59.2.dmg" sparkle:version="2.59.1" type="application/octet-stream"/>
+    </item>
+
+    <item>
+        <title>Fork 2.58</title>
+        <description>
+            <![CDATA[
+            <ul>
+                <li>macOS Tahoe improvements</li>
+                <li>Show diff for conflicted files resolved in an external tool</li>
+                <li>In tab header, show first different path component for repos with same name</li>
+                <li>Perform stage/unstage/discard on background thread</li>
+                <li>Improved: Add open in project editor options to submodule context menu</li>
+                <li>Improved: Use new API to request Bitbucket repos. You may need to log in again</li>
+                <li>Fixed: Delete worktree with submodules</li>
+                <li>Fixed: Custom commands don't report stdout in time</li>
+            </ul>
+            ]]>
+        </description>
+        <pubDate>Tue, 10 Oct 2025 10:50:00 +0000</pubDate>
+        <enclosure url="https://cdn.fork.dev/mac/Fork-2.58.0.dmg" sparkle:version="2.58.0" type="application/octet-stream"/>
+    </item>
+
+    <item>
+        <title>Fork 2.57</title>
+        <description>
+            <![CDATA[
+            <ul>
+                <li>Support macOS Tahoe 26</li>
+                <li>Quick Launch: also fuzzy search in file paths</li>
+                <li>Fixed: LFS status list doesn't show files with spaces</li>
+                <li>Fixed: Rare crash when opening QuickLaunch in Checkout Branch mode (Cmd+B)</li>
+                <li>Note: We will soon change minimum macOS to 10.15. Please be prepared.</li>
+                <li>Hotfix 2.57.1: Make app icon look less ugly on older macOS (cr🍏)</li>
+            </ul>
+            ]]>
+        </description>
+        <pubDate>Tue, 16 Sep 2025 10:50:00 +0000</pubDate>
+        <enclosure url="https://cdn.fork.dev/mac/Fork-2.57.1.dmg" sparkle:version="2.57.1" type="application/octet-stream"/>
+    </item>
+
+    <item>
+        <title>Fork 2.56</title>
+        <description>
+            <![CDATA[
+            <ul>
+                <li>Reveal new repos automatically</li>
+                <li>Mark good and bad commits with colors when bisecting</li>
+                <li>For Bitbucket authentication replace deprecated app passwords with new API tokens</li>
+                <li>A lot of internal changes for upcoming macOS Tahoe</li>
+                <li>Increase commit subject font</li>
+                <li>Add experimental 'Review with OpenAI' to branch context menu</li>
+                <li>Note: We will soon change minimum macOS to 10.15 (Catalina). Please be prepared.</li>
+                <li>Fixed: Commit details does not update when clicking on an already focused item on sidebar</li>
+                <li>Fixed: '↩︎' icon showed incorrectly in some cases</li>
+            </ul>
+            ]]>
+        </description>
+        <pubDate>Fri, 29 Aug 2025 10:50:00 +0000</pubDate>
+        <enclosure url="https://cdn.fork.dev/mac/Fork-2.56.1.dmg" sparkle:version="2.56" type="application/octet-stream"/>
+    </item>
+
+    <item>
+        <title>Fork 2.55</title>
+        <description>
+            <![CDATA[
+            <ul>
+                <li>Show '↩︎' if commit has a description</li>
+                <li>Reorder and squash commits in active branch using drag and drop</li>
+                <li>Rebase dialog will show if rebase will cause a conflict</li>
+                <li>Generate commit message using OpenAI (you can log in in Fork Preferences)</li>
+                <li>Update git-lfs to 3.7.0</li>
+                <li>Fixed: 'Push tag' hangs when authentication is managed by git-credential-manager</li>
+                <li>Fixed: 'Rebase continue' hangs when submodule requires update</li>
+                <li>Hotfix 2.55.3: Bitbucket token refreshment doesn't work</li>
+            </ul>
+            ]]>
+        </description>
+        <pubDate>Fri, 8 Aug 2025 10:50:00 +0000</pubDate>
+        <enclosure url="https://cdn.fork.dev/mac/Fork-2.55.3.dmg" sparkle:version="2.55.3" type="application/octet-stream"/>
+    </item>
+
+    <item>
+        <title>Fork 2.54</title>
+        <description>
+            <![CDATA[
+            <ul>
+                <li>There are no features in this update, just bug fixes and performance improvements</li>
+                <li>Fixed: Crash when opening a repo with a remote with slashes in the name</li>
+                <li>Fixed: Filter is not updated on rename branch</li>
+                <li>Fixed: Cancel button in custom command doesn't run the action</li>
+                <li>Fixed: Bisect hint not fully visible</li>
+                <li>Hotfix 2.53.3: Update git to 2.50.1</li>
+                <li>Hotfix 2.53.3: 'Patch failed' error when applying stash with conflict</li>
+                <li>Hotfix 2.53.3: Error loading shallow repos for some users</li>
+                <li>Hotfix 2.53.3: Incorrect preselected branch in gitflow dialogs</li>
+            </ul>
+            ]]>
+        </description>
+        <pubDate>Fri, 27 jun 2025 10:50:00 +0000</pubDate>
+        <enclosure url="https://cdn.fork.dev/mac/Fork-2.54.3.dmg" sparkle:version="2.54.3" type="application/octet-stream"/>
+    </item>
+
+    <item>
+        <title>Fork 2.53</title>
+        <description>
+            <![CDATA[
+            <ul>
+                <li>Draw branch labels with correspoding graph colors</li>
+                <li>Show conflict marks on scrollbar in merger</li>
+                <li>Add ability to reveal diff line in Nova</li>
+                <li>Renamed 'Repository Overview' to 'Repository Treemap'</li>
+                <li>Hotfix 2.53.2: wrong branch label color in some cases</li>
+            </ul>
+            ]]>
+        </description>
+        <pubDate>Fri, 23 May 2025 10:50:00 +0000</pubDate>
+        <enclosure url="https://cdn.fork.dev/mac/Fork-2.53.2.dmg" sparkle:version="2.53.2" type="application/octet-stream"/>
+    </item>
+
+    <item>
+        <title>Fork 2.52</title>
+        <description>
+            <![CDATA[
+            <ul>
+                <li>⭐️ Introducing Repository Overview allowing you to observe repository changes over time. Please give it a try and share your feedback with us. Can it be useful for you? Can it be called better? How can we improve it?</li>
+                <li>Improved: Custom 'checkerboard' background in dark mode</li>
+                <li>Fixed: Pixel image diff does not work for LFS files</li>
+                <li>Fixed: Merge conflict for binary files always looks resolved</li>
+                <li>Fixed: 'Copy Full Path' file context menu is not working</li>
+                <li>Fixed: Remotes list doesn't refresh when remote is created in push dialog</li>
+                <li>Fixed: Checking out previous branch after creating a new one in repo with worktree doesn't work</li>
+            </ul>
+            ]]>
+        </description>
+        <pubDate>Fri, 18 Apr 2025 10:50:00 +0000</pubDate>
+        <enclosure url="https://cdn.fork.dev/mac/Fork-2.52.0.dmg" sparkle:version="2.52.0" type="application/octet-stream"/>
+    </item>
+
+    <item>
+        <title>Fork 2.51</title>
+        <description>
+            <![CDATA[
+            <ul>
+                <li>Add checkbox control to UI Custom Commands</li>
+                <li>Support for .tga images</li>
+                <li>Support for .svg images (macOS Sonoma 14 and newer)</li>
+                <li>Fixed: Custom commands do not display error details when they fail</li>
+                <li>Hotfix 2.51.2: Merging using external tools is not recognized</li>
+                <li>Hotfix 2.51.3: 'Compare to Local changes' doesn't show diff</li>
+            </ul>
+            ]]>
+        </description>
+        <pubDate>Fri, 7 Mar 2025 10:50:00 +0000</pubDate>
+        <enclosure url="https://cdn.fork.dev/mac/Fork-2.51.3.dmg" sparkle:version="2.51.3" type="application/octet-stream"/>
+    </item>
+
+    <item>
+        <title>Fork 2.50</title>
+        <description>
+            <![CDATA[
+            <ul>
+                <li>Highlight search matches in branch labels</li>
+                <li>Add Ghostty terminal</li>
+                <li>Add 'skip' option to bisect</li>
+                <li>Hotfix 2.50.1: Update git-lfs to 3.6.1 (CVE-2024-53263)</li>
+                <li>Breaking change: git-lfs 3.6.0 requires macOS 11 (Big Sur) or later</li>
+            </ul>
+            ]]>
+        </description>
+        <pubDate>Fri, 7 Feb 2025 10:50:00 +0000</pubDate>
+        <enclosure url="https://cdn.fork.dev/mac/Fork-2.50.1.dmg" sparkle:version="2.50.1" type="application/octet-stream"/>
+    </item>
+  </channel>
+</rss>

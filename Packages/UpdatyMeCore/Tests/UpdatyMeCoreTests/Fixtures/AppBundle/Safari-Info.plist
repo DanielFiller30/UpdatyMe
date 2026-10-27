@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.Safari</string>
+	<key>CFBundleName</key>
+	<string>Safari</string>
+	<key>CFBundleShortVersionString</key>
+	<string>27.0</string>
+	<key>CFBundleVersion</key>
+	<string>21625.1.29.18.28</string>
+</dict>
+</plist>

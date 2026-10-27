@@ -1,0 +1,1732 @@
+{
+  "formulae": [
+    {
+      "name": "autoconf",
+      "full_name": "autoconf",
+      "tap": "homebrew/core",
+      "oldnames": [],
+      "aliases": [
+        "autoconf@2.73"
+      ],
+      "versioned_formulae": [],
+      "desc": "Automatic configure script builder",
+      "license": "GPL-3.0-or-later AND (GPL-3.0-or-later WITH Autoconf-exception-3.0)",
+      "homepage": "https://www.gnu.org/software/autoconf/",
+      "versions": {
+        "stable": "2.73",
+        "head": null,
+        "bottle": true
+      },
+      "urls": {
+        "stable": {
+          "url": "https://ftpmirror.gnu.org/autoconf/autoconf-2.73.tar.gz",
+          "tag": null,
+          "revision": null,
+          "using": null,
+          "checksum": "259ddfa3bddc799cfb81489cc0f17dfdf1bd6d1505dda53c0f45ff60d6a4f9a7"
+        }
+      },
+      "patches": [],
+      "local_patch_checksums": {},
+      "revision": 0,
+      "version_scheme": 0,
+      "compatibility_version": 1,
+      "autobump": true,
+      "no_autobump_message": null,
+      "skip_livecheck": false,
+      "bottle": {
+        "stable": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_tahoe": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/autoconf/blobs/sha256:bc785e044f4bec3efa3e9875f154905dad8a249e6e57d2a3ab0250eebdc866e8",
+              "sha256": "bc785e044f4bec3efa3e9875f154905dad8a249e6e57d2a3ab0250eebdc866e8"
+            }
+          }
+        }
+      },
+      "pour_bottle_only_if": null,
+      "keg_only": false,
+      "keg_only_reason": null,
+      "options": [],
+      "build_dependencies": [],
+      "dependencies": [
+        "m4"
+      ],
+      "test_dependencies": [],
+      "recommended_dependencies": [],
+      "optional_dependencies": [],
+      "no_linkage_dependencies": [],
+      "uses_from_macos": [
+        "perl"
+      ],
+      "uses_from_macos_bounds": [
+        {}
+      ],
+      "requirements": [],
+      "conflicts_with": [],
+      "conflicts_with_reasons": [],
+      "link_overwrite": [],
+      "caveats": null,
+      "installed": [
+        {
+          "sbom": "/opt/homebrew/Cellar/autoconf/2.73/sbom.spdx.json",
+          "version": "2.73",
+          "used_options": [],
+          "built_as_bottle": true,
+          "poured_from_bottle": true,
+          "time": 1776690650,
+          "runtime_dependencies": [
+            {
+              "full_name": "m4",
+              "version": "1.4.21",
+              "revision": 0,
+              "bottle_rebuild": 0,
+              "pkg_version": "1.4.21",
+              "declared_directly": true
+            }
+          ],
+          "installed_on_request": false
+        }
+      ],
+      "linked_keg": "2.73",
+      "pinned": false,
+      "outdated": false,
+      "deprecated": false,
+      "deprecation_date": null,
+      "deprecation_reason": null,
+      "deprecation_replacement_formula": null,
+      "deprecation_replacement_cask": null,
+      "deprecate_args": null,
+      "disabled": false,
+      "disable_date": null,
+      "disable_reason": null,
+      "disable_replacement_formula": null,
+      "disable_replacement_cask": null,
+      "disable_args": null,
+      "post_install_steps": [],
+      "post_install_defined": false,
+      "service": null,
+      "tap_git_head": "152c85d1b9fe5e586bc14ee64a31142052614d4c",
+      "ruby_source_path": "Formula/a/autoconf.rb",
+      "ruby_source_checksum": {
+        "sha256": "cab75402095f9a65be6a5d3fc11a2f7a6a7fdf04189abee37bfc1c6e5adff499"
+      }
+    },
+    {
+      "name": "ca-certificates",
+      "full_name": "ca-certificates",
+      "tap": "homebrew/core",
+      "oldnames": [],
+      "aliases": [],
+      "versioned_formulae": [],
+      "desc": "Mozilla CA certificate store",
+      "license": "MPL-2.0",
+      "homepage": "https://curl.se/docs/caextract.html",
+      "versions": {
+        "stable": "2026-10-20",
+        "head": null,
+        "bottle": true
+      },
+      "urls": {
+        "stable": {
+          "url": "https://curl.se/ca/cacert-2026-10-20.pem",
+          "tag": null,
+          "revision": null,
+          "using": null,
+          "checksum": "796f1389bfea13c0ed78f663b765baaff54a508e5483786bd6ece73c5e3e3cbe"
+        }
+      },
+      "patches": [],
+      "local_patch_checksums": {},
+      "revision": 0,
+      "version_scheme": 0,
+      "compatibility_version": 1,
+      "autobump": true,
+      "no_autobump_message": null,
+      "skip_livecheck": false,
+      "bottle": {
+        "stable": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "all": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:8589f4e61b3afcc5ea375aab11af1c891ec4c94421c699c2a5a4765078de4443",
+              "sha256": "8589f4e61b3afcc5ea375aab11af1c891ec4c94421c699c2a5a4765078de4443"
+            }
+          }
+        }
+      },
+      "pour_bottle_only_if": null,
+      "keg_only": false,
+      "keg_only_reason": null,
+      "options": [],
+      "build_dependencies": [],
+      "dependencies": [],
+      "test_dependencies": [],
+      "recommended_dependencies": [],
+      "optional_dependencies": [],
+      "no_linkage_dependencies": [],
+      "uses_from_macos": [],
+      "uses_from_macos_bounds": [],
+      "requirements": [],
+      "conflicts_with": [],
+      "conflicts_with_reasons": [],
+      "link_overwrite": [],
+      "caveats": null,
+      "installed": [
+        {
+          "sbom": "/opt/homebrew/Cellar/ca-certificates/2026-10-20/sbom.spdx.json",
+          "version": "2026-10-20",
+          "used_options": [],
+          "built_as_bottle": true,
+          "poured_from_bottle": true,
+          "time": 1792668398,
+          "runtime_dependencies": [],
+          "installed_on_request": false
+        }
+      ],
+      "linked_keg": "2026-10-20",
+      "pinned": false,
+      "outdated": false,
+      "deprecated": false,
+      "deprecation_date": null,
+      "deprecation_reason": null,
+      "deprecation_replacement_formula": null,
+      "deprecation_replacement_cask": null,
+      "deprecate_args": null,
+      "disabled": false,
+      "disable_date": null,
+      "disable_reason": null,
+      "disable_replacement_formula": null,
+      "disable_replacement_cask": null,
+      "disable_args": null,
+      "post_install_steps": [
+        {
+          "command": {
+            "base": "libexec",
+            "path": "post-install"
+          },
+          "type": "run",
+          "args": [
+            "{{pkgshare}}/cacert.pem",
+            "{{pkgetc}}/cert.pem"
+          ]
+        }
+      ],
+      "post_install_defined": false,
+      "service": null,
+      "tap_git_head": "152c85d1b9fe5e586bc14ee64a31142052614d4c",
+      "ruby_source_path": "Formula/c/ca-certificates.rb",
+      "ruby_source_checksum": {
+        "sha256": "535300ac0e99511a36340454bd5287cfff097191de9d7b9675ed924f3a692317"
+      }
+    },
+    {
+      "name": "cffi",
+      "full_name": "cffi",
+      "tap": "homebrew/core",
+      "oldnames": [],
+      "aliases": [],
+      "versioned_formulae": [],
+      "desc": "C Foreign Function Interface for Python",
+      "license": "MIT-0",
+      "homepage": "https://cffi.readthedocs.io/en/latest/",
+      "versions": {
+        "stable": "2.1.1",
+        "head": null,
+        "bottle": true
+      },
+      "urls": {
+        "stable": {
+          "url": "https://files.pythonhosted.org/packages/9e/ef/008a1939e372c06329a3fce4279c02f328488f3526744906eeec3da7ad5f/cffi-2.1.1.tar.gz",
+          "tag": null,
+          "revision": null,
+          "using": null,
+          "checksum": "dd31f52ea1086513bb9df30f8fcee9b8918323ae067a3d5b78bc826a000712be"
+        }
+      },
+      "patches": [],
+      "local_patch_checksums": {},
+      "revision": 1,
+      "version_scheme": 0,
+      "compatibility_version": 1,
+      "autobump": true,
+      "no_autobump_message": null,
+      "skip_livecheck": false,
+      "bottle": {
+        "stable": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_tahoe": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/cffi/blobs/sha256:d2ccf2a7ad2dbb4ec3aa9339f53e8463991ce0aea93aec9cebb8ad9c9489a7d0",
+              "sha256": "d2ccf2a7ad2dbb4ec3aa9339f53e8463991ce0aea93aec9cebb8ad9c9489a7d0"
+            }
+          }
+        }
+      },
+      "pour_bottle_only_if": null,
+      "keg_only": false,
+      "keg_only_reason": null,
+      "options": [],
+      "build_dependencies": [
+        "python@3.14",
+        "python@3.15"
+      ],
+      "dependencies": [
+        "pycparser"
+      ],
+      "test_dependencies": [
+        "python@3.14",
+        "python@3.15"
+      ],
+      "recommended_dependencies": [],
+      "optional_dependencies": [],
+      "no_linkage_dependencies": [],
+      "uses_from_macos": [
+        "libffi"
+      ],
+      "uses_from_macos_bounds": [
+        {}
+      ],
+      "requirements": [],
+      "conflicts_with": [],
+      "conflicts_with_reasons": [],
+      "link_overwrite": [],
+      "caveats": null,
+      "installed": [
+        {
+          "sbom": "/opt/homebrew/Cellar/cffi/2.1.1_1/sbom.spdx.json",
+          "version": "2.1.1_1",
+          "used_options": [],
+          "built_as_bottle": true,
+          "poured_from_bottle": true,
+          "time": 1792668577,
+          "runtime_dependencies": [
+            {
+              "full_name": "pycparser",
+              "version": "3.11",
+              "revision": 0,
+              "bottle_rebuild": 0,
+              "pkg_version": "3.11",
+              "declared_directly": true,
+              "compatibility_version": 1
+            }
+          ],
+          "installed_on_request": false
+        }
+      ],
+      "linked_keg": "2.1.1_1",
+      "pinned": false,
+      "outdated": false,
+      "deprecated": false,
+      "deprecation_date": null,
+      "deprecation_reason": null,
+      "deprecation_replacement_formula": null,
+      "deprecation_replacement_cask": null,
+      "deprecate_args": null,
+      "disabled": false,
+      "disable_date": null,
+      "disable_reason": null,
+      "disable_replacement_formula": null,
+      "disable_replacement_cask": null,
+      "disable_args": null,
+      "post_install_steps": [],
+      "post_install_defined": false,
+      "service": null,
+      "tap_git_head": "152c85d1b9fe5e586bc14ee64a31142052614d4c",
+      "ruby_source_path": "Formula/c/cffi.rb",
+      "ruby_source_checksum": {
+        "sha256": "7a6f9d7e2e2382b3fd876445965af5cbcca91bf37b08583aa5c19530ed9a4b80"
+      }
+    },
+    {
+      "name": "docker",
+      "full_name": "docker",
+      "tap": "homebrew/core",
+      "oldnames": [],
+      "aliases": [],
+      "versioned_formulae": [],
+      "desc": "Pack, ship and run any application as a lightweight container",
+      "license": "Apache-2.0",
+      "homepage": "https://www.docker.com/",
+      "versions": {
+        "stable": "29.9.2",
+        "head": "HEAD",
+        "bottle": true
+      },
+      "urls": {
+        "stable": {
+          "url": "https://github.com/docker/cli.git",
+          "tag": "v29.9.2",
+          "revision": "a82e528901260c8df6073311379eac65f92db204",
+          "using": null,
+          "checksum": null
+        },
+        "head": {
+          "url": "https://github.com/docker/cli.git",
+          "branch": "master",
+          "using": null
+        }
+      },
+      "patches": [],
+      "local_patch_checksums": {},
+      "revision": 0,
+      "version_scheme": 0,
+      "compatibility_version": null,
+      "autobump": true,
+      "no_autobump_message": null,
+      "skip_livecheck": false,
+      "bottle": {
+        "stable": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_tahoe": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/docker/blobs/sha256:08357b0b7b943417ed081f726f0d0c18aa84c4b3b6699eb2c9090a40fc76de8e",
+              "sha256": "08357b0b7b943417ed081f726f0d0c18aa84c4b3b6699eb2c9090a40fc76de8e"
+            }
+          }
+        }
+      },
+      "pour_bottle_only_if": null,
+      "keg_only": false,
+      "keg_only_reason": null,
+      "options": [],
+      "build_dependencies": [
+        "go",
+        "go-md2man"
+      ],
+      "dependencies": [],
+      "test_dependencies": [],
+      "recommended_dependencies": [],
+      "optional_dependencies": [],
+      "no_linkage_dependencies": [],
+      "uses_from_macos": [],
+      "uses_from_macos_bounds": [],
+      "requirements": [],
+      "conflicts_with": [],
+      "conflicts_with_reasons": [],
+      "link_overwrite": [],
+      "caveats": null,
+      "installed": [
+        {
+          "sbom": "/opt/homebrew/Cellar/docker/29.9.2/sbom.spdx.json",
+          "version": "29.9.2",
+          "used_options": [],
+          "built_as_bottle": true,
+          "poured_from_bottle": true,
+          "time": 1792668456,
+          "runtime_dependencies": [],
+          "installed_on_request": true
+        }
+      ],
+      "linked_keg": "29.9.2",
+      "pinned": false,
+      "outdated": false,
+      "deprecated": false,
+      "deprecation_date": null,
+      "deprecation_reason": null,
+      "deprecation_replacement_formula": null,
+      "deprecation_replacement_cask": null,
+      "deprecate_args": null,
+      "disabled": false,
+      "disable_date": null,
+      "disable_reason": null,
+      "disable_replacement_formula": null,
+      "disable_replacement_cask": null,
+      "disable_args": null,
+      "post_install_steps": [],
+      "post_install_defined": false,
+      "service": null,
+      "tap_git_head": "152c85d1b9fe5e586bc14ee64a31142052614d4c",
+      "ruby_source_path": "Formula/d/docker.rb",
+      "ruby_source_checksum": {
+        "sha256": "dc3510ef7d5cc047b195b325669b6cf029ff2499c6ae96c08b2a43cd62f0d539"
+      }
+    },
+    {
+      "name": "icu4c@78",
+      "full_name": "icu4c@78",
+      "tap": "homebrew/core",
+      "oldnames": [],
+      "aliases": [],
+      "versioned_formulae": [
+        "icu4c@79",
+        "icu4c@77",
+        "icu4c@76"
+      ],
+      "desc": "C/C++ and Java libraries for Unicode and globalization",
+      "license": "Unicode-3.0",
+      "homepage": "https://icu.unicode.org/home",
+      "versions": {
+        "stable": "78.3",
+        "head": null,
+        "bottle": true
+      },
+      "urls": {
+        "stable": {
+          "url": "https://github.com/unicode-org/icu/releases/download/release-78.3/icu4c-78.3-sources.tgz",
+          "tag": null,
+          "revision": null,
+          "using": null,
+          "checksum": "3a2e7a47604ba702f345878308e6fefeca612ee895cf4a5f222e7955fabfe0c0"
+        }
+      },
+      "patches": [],
+      "local_patch_checksums": {},
+      "revision": 1,
+      "version_scheme": 0,
+      "compatibility_version": 1,
+      "autobump": true,
+      "no_autobump_message": null,
+      "skip_livecheck": false,
+      "bottle": {
+        "stable": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_tahoe": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/icu4c/78/blobs/sha256:91443211e1f1681ac6a0b6490a542e849176172a63f875704f51c03aa6dcaeb5",
+              "sha256": "91443211e1f1681ac6a0b6490a542e849176172a63f875704f51c03aa6dcaeb5"
+            }
+          }
+        }
+      },
+      "pour_bottle_only_if": null,
+      "keg_only": true,
+      "keg_only_reason": {
+        "reason": ":versioned_formula",
+        "explanation": ""
+      },
+      "options": [],
+      "build_dependencies": [],
+      "dependencies": [],
+      "test_dependencies": [],
+      "recommended_dependencies": [],
+      "optional_dependencies": [],
+      "no_linkage_dependencies": [],
+      "uses_from_macos": [],
+      "uses_from_macos_bounds": [],
+      "requirements": [],
+      "conflicts_with": [],
+      "conflicts_with_reasons": [],
+      "link_overwrite": [],
+      "caveats": null,
+      "installed": [
+        {
+          "sbom": "/opt/homebrew/Cellar/icu4c@78/78.3/sbom.spdx.json",
+          "version": "78.3",
+          "used_options": [],
+          "built_as_bottle": true,
+          "poured_from_bottle": true,
+          "time": 1784385110,
+          "runtime_dependencies": [],
+          "installed_on_request": false
+        }
+      ],
+      "linked_keg": null,
+      "pinned": false,
+      "outdated": true,
+      "deprecated": false,
+      "deprecation_date": "2026-10-30",
+      "deprecation_reason": null,
+      "deprecation_replacement_formula": null,
+      "deprecation_replacement_cask": null,
+      "deprecate_args": {
+        "date": "2026-10-30",
+        "because": "versioned_formula",
+        "replacement_formula": null,
+        "replacement_cask": null
+      },
+      "disabled": false,
+      "disable_date": "2027-10-30",
+      "disable_reason": null,
+      "disable_replacement_formula": null,
+      "disable_replacement_cask": null,
+      "disable_args": {
+        "date": "2027-10-30",
+        "because": "versioned_formula",
+        "replacement_formula": null,
+        "replacement_cask": null
+      },
+      "post_install_steps": [],
+      "post_install_defined": false,
+      "service": null,
+      "tap_git_head": "152c85d1b9fe5e586bc14ee64a31142052614d4c",
+      "ruby_source_path": "Formula/i/icu4c@78.rb",
+      "ruby_source_checksum": {
+        "sha256": "c69d7e6e3bc94f009fc7ae97426e974a1301c10b4e3d76efdf8282078629dfab"
+      }
+    },
+    {
+      "name": "maestro",
+      "full_name": "mobile-dev-inc/tap/maestro",
+      "tap": "mobile-dev-inc/tap",
+      "oldnames": [],
+      "aliases": [],
+      "versioned_formulae": [],
+      "desc": "The easiest way to automate UI testing for your mobile app",
+      "license": "Apache-2.0",
+      "homepage": "https://maestro.mobile.dev",
+      "versions": {
+        "stable": "2.12.0",
+        "head": null,
+        "bottle": false
+      },
+      "urls": {
+        "stable": {
+          "url": "https://github.com/mobile-dev-inc/maestro/releases/download/cli-2.12.0/maestro.zip",
+          "tag": null,
+          "revision": null,
+          "using": null,
+          "checksum": "a6044a84542f522f434c5dc3d609e60c7446d423f3ed1b2ae513f5c48663ec5e"
+        }
+      },
+      "patches": [],
+      "local_patch_checksums": {},
+      "revision": 0,
+      "version_scheme": 0,
+      "compatibility_version": null,
+      "autobump": true,
+      "no_autobump_message": null,
+      "skip_livecheck": false,
+      "bottle": {},
+      "pour_bottle_only_if": null,
+      "keg_only": false,
+      "keg_only_reason": null,
+      "options": [],
+      "build_dependencies": [],
+      "dependencies": [
+        "openjdk"
+      ],
+      "test_dependencies": [],
+      "recommended_dependencies": [],
+      "optional_dependencies": [],
+      "no_linkage_dependencies": [],
+      "uses_from_macos": [],
+      "uses_from_macos_bounds": [],
+      "requirements": [],
+      "conflicts_with": [],
+      "conflicts_with_reasons": [],
+      "link_overwrite": [],
+      "caveats": null,
+      "installed": [
+        {
+          "sbom": "/opt/homebrew/Cellar/maestro/2.11.0/sbom.spdx.json",
+          "version": "2.11.0",
+          "used_options": [],
+          "built_as_bottle": false,
+          "poured_from_bottle": false,
+          "time": 1792668575,
+          "runtime_dependencies": [
+            {
+              "full_name": "brotli",
+              "version": "1.2.1",
+              "revision": 0,
+              "bottle_rebuild": 0,
+              "pkg_version": "1.2.1",
+              "declared_directly": false,
+              "compatibility_version": 1
+            },
+            {
+              "full_name": "libpng",
+              "version": "1.6.59",
+              "revision": 0,
+              "bottle_rebuild": 0,
+              "pkg_version": "1.6.59",
+              "declared_directly": false,
+              "compatibility_version": 1
+            },
+            {
+              "full_name": "freetype",
+              "version": "2.15.0",
+              "revision": 0,
+              "bottle_rebuild": 0,
+              "pkg_version": "2.15.0",
+              "declared_directly": false,
+              "compatibility_version": 1
+            },
+            {
+              "full_name": "giflib",
+              "version": "6.1.3",
+              "revision": 0,
+              "bottle_rebuild": 1,
+              "pkg_version": "6.1.3",
+              "declared_directly": false,
+              "compatibility_version": 1
+            },
+            {
+              "full_name": "json-c",
+              "version": "0.19",
+              "revision": 0,
+              "bottle_rebuild": 1,
+              "pkg_version": "0.19",
+              "declared_directly": false
+            },
+            {
+              "full_name": "libunistring",
+              "version": "1.5",
+              "revision": 0,
+              "bottle_rebuild": 0,
+              "pkg_version": "1.5",
+              "declared_directly": false,
+              "compatibility_version": 1
+            },
+            {
+              "full_name": "gettext",
+              "version": "1.0",
+              "revision": 0,
+              "bottle_rebuild": 2,
+              "pkg_version": "1.0",
+              "declared_directly": false,
+              "compatibility_version": 1
+            },
+            {
+              "full_name": "fontconfig",
+              "version": "2.18.3",
+              "revision": 0,
+              "bottle_rebuild": 0,
+              "pkg_version": "2.18.3",
+              "declared_directly": false,
+              "compatibility_version": 1
+            },
+            {
+              "full_name": "pcre2",
+              "version": "10.49",
+              "revision": 0,
+              "bottle_rebuild": 0,
+              "pkg_version": "10.49",
+              "declared_directly": false,
+              "compatibility_version": 1
+            },
+            {
+              "full_name": "glib",
+              "version": "2.90.1",
+              "revision": 0,
+              "bottle_rebuild": 1,
+              "pkg_version": "2.90.1",
+              "declared_directly": false,
+              "compatibility_version": 1
+            },
+            {
+              "full_name": "xorgproto",
+              "version": "2026.1",
+              "revision": 0,
+              "bottle_rebuild": 0,
+              "pkg_version": "2026.1",
+              "declared_directly": false,
+              "compatibility_version": 1
+            },
+            {
+              "full_name": "libxau",
+              "version": "1.0.12",
+              "revision": 0,
+              "bottle_rebuild": 0,
+              "pkg_version": "1.0.12",
+              "declared_directly": false,
+              "compatibility_version": 1
+            },
+            {
+              "full_name": "libxdmcp",
+              "version": "1.1.5",
+              "revision": 0,
+              "bottle_rebuild": 0,
+              "pkg_version": "1.1.5",
+              "declared_directly": false,
+              "compatibility_version": 1
+            },
+            {
+              "full_name": "libxcb",
+              "version": "1.17.0",
+              "revision": 0,
+              "bottle_rebuild": 1,
+              "pkg_version": "1.17.0",
+              "declared_directly": false,
+              "compatibility_version": 1
+            },
+            {
+              "full_name": "libx11",
+              "version": "1.8.14",
+              "revision": 0,
+              "bottle_rebuild": 0,
+              "pkg_version": "1.8.14",
+              "declared_directly": false,
+              "compatibility_version": 1
+            },
+            {
+              "full_name": "libxext",
+              "version": "1.3.7",
+              "revision": 0,
+              "bottle_rebuild": 0,
+              "pkg_version": "1.3.7",
+              "declared_directly": false,
+              "compatibility_version": 1
+            },
+            {
+              "full_name": "libxrender",
+              "version": "0.9.13",
+              "revision": 0,
+              "bottle_rebuild": 0,
+              "pkg_version": "0.9.13",
+              "declared_directly": false,
+              "compatibility_version": 1
+            },
+            {
+              "full_name": "lzo",
+              "version": "2.10",
+              "revision": 0,
+              "bottle_rebuild": 0,
+              "pkg_version": "2.10",
+              "declared_directly": false
+            },
+            {
+              "full_name": "pixman",
+              "version": "0.46.4",
+              "revision": 0,
+              "bottle_rebuild": 1,
+              "pkg_version": "0.46.4",
+              "declared_directly": false,
+              "compatibility_version": 1
+            },
+            {
+              "full_name": "cairo",
+              "version": "1.18.6",
+              "revision": 0,
+              "bottle_rebuild": 0,
+              "pkg_version": "1.18.6",
+              "declared_directly": false
+            },
+            {
+              "full_name": "graphite2",
+              "version": "1.3.15",
+              "revision": 0,
+              "bottle_rebuild": 0,
+              "pkg_version": "1.3.15",
+              "declared_directly": false
+            },
+            {
+              "full_name": "icu4c@78",
+              "version": "78.3",
+              "revision": 0,
+              "bottle_rebuild": 0,
+              "pkg_version": "78.3",
+              "declared_directly": false,
+              "compatibility_version": 1
+            },
+            {
+              "full_name": "harfbuzz",
+              "version": "14.6.0",
+              "revision": 0,
+              "bottle_rebuild": 0,
+              "pkg_version": "14.6.0",
+              "declared_directly": false,
+              "compatibility_version": 1
+            },
+            {
+              "full_name": "jpeg-turbo",
+              "version": "3.2.0",
+              "revision": 0,
+              "bottle_rebuild": 1,
+              "pkg_version": "3.2.0",
+              "declared_directly": false,
+              "compatibility_version": 1
+            },
+            {
+              "full_name": "webp",
+              "version": "1.6.0",
+              "revision": 0,
+              "bottle_rebuild": 1,
+              "pkg_version": "1.6.0",
+              "declared_directly": false,
+              "compatibility_version": 1
+            },
+            {
+              "full_name": "xz",
+              "version": "5.8.4",
+              "revision": 0,
+              "bottle_rebuild": 0,
+              "pkg_version": "5.8.4",
+              "declared_directly": false,
+              "compatibility_version": 1
+            },
+            {
+              "full_name": "lz4",
+              "version": "1.10.0",
+              "revision": 0,
+              "bottle_rebuild": 3,
+              "pkg_version": "1.10.0",
+              "declared_directly": false
+            },
+            {
+              "full_name": "zstd",
+              "version": "1.5.7",
+              "revision": 1,
+              "bottle_rebuild": 0,
+              "pkg_version": "1.5.7_1",
+              "declared_directly": false,
+              "compatibility_version": 1
+            },
+            {
+              "full_name": "libtiff",
+              "version": "4.7.2",
+              "revision": 0,
+              "bottle_rebuild": 2,
+              "pkg_version": "4.7.2",
+              "declared_directly": false,
+              "compatibility_version": 1
+            },
+            {
+              "full_name": "little-cms2",
+              "version": "2.19.1",
+              "revision": 0,
+              "bottle_rebuild": 1,
+              "pkg_version": "2.19.1",
+              "declared_directly": false,
+              "compatibility_version": 1
+            },
+            {
+              "full_name": "openjdk",
+              "version": "27",
+              "revision": 0,
+              "bottle_rebuild": 1,
+              "pkg_version": "27",
+              "declared_directly": true,
+              "compatibility_version": 2
+            }
+          ],
+          "installed_on_request": true
+        }
+      ],
+      "linked_keg": "2.11.0",
+      "pinned": false,
+      "outdated": true,
+      "deprecated": false,
+      "deprecation_date": null,
+      "deprecation_reason": null,
+      "deprecation_replacement_formula": null,
+      "deprecation_replacement_cask": null,
+      "deprecate_args": null,
+      "disabled": false,
+      "disable_date": null,
+      "disable_reason": null,
+      "disable_replacement_formula": null,
+      "disable_replacement_cask": null,
+      "disable_args": null,
+      "post_install_steps": [],
+      "post_install_defined": false,
+      "service": null,
+      "tap_git_head": "a5e184f90443546c07320cc3abe49058df561f05",
+      "ruby_source_path": "Formula/maestro.rb",
+      "ruby_source_checksum": {
+        "sha256": "1febe422d71047085ede6905d2549d7a50dfd8f2be0f33c692d7fbebb4ed509a"
+      }
+    },
+    {
+      "name": "python@3.12",
+      "full_name": "python@3.12",
+      "tap": "homebrew/core",
+      "oldnames": [],
+      "aliases": [],
+      "versioned_formulae": [
+        "python@3.15",
+        "python@3.14",
+        "python@3.13",
+        "python@3.11",
+        "python@3.10",
+        "python@3.9"
+      ],
+      "desc": "Interpreted, interactive, object-oriented programming language",
+      "license": "Python-2.0",
+      "homepage": "https://www.python.org/",
+      "versions": {
+        "stable": "3.12.16",
+        "head": null,
+        "bottle": true
+      },
+      "urls": {
+        "stable": {
+          "url": "https://www.python.org/ftp/python/3.12.16/Python-3.12.16.tgz",
+          "tag": null,
+          "revision": null,
+          "using": null,
+          "checksum": "710c3e75dac8b2f258d9cd0f76e5c4c2e9175fac9e249c98901552f7cf33b7dd"
+        }
+      },
+      "patches": [
+        {
+          "strip": "p1",
+          "file": "Patches/python/3.11-sysconfig.diff",
+          "resolves": [
+            {
+              "type": "defect",
+              "id": "https://bugs.python.org/issue43976"
+            }
+          ]
+        }
+      ],
+      "local_patch_checksums": {
+        "Patches/python/3.11-sysconfig.diff": "8bfe417c815da4ca2c0a2457ce7ef81bc9dae310e20e4fb36235901ea4be1658"
+      },
+      "revision": 0,
+      "version_scheme": 0,
+      "compatibility_version": 1,
+      "autobump": true,
+      "no_autobump_message": null,
+      "skip_livecheck": false,
+      "bottle": {
+        "stable": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_tahoe": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/python/3.12/blobs/sha256:496ae8d9b36ecf8ccbbff547717f0c7c52eb13b079ad3057fd93416287df0883",
+              "sha256": "496ae8d9b36ecf8ccbbff547717f0c7c52eb13b079ad3057fd93416287df0883"
+            }
+          }
+        }
+      },
+      "pour_bottle_only_if": null,
+      "keg_only": false,
+      "keg_only_reason": null,
+      "options": [],
+      "build_dependencies": [
+        "pkgconf"
+      ],
+      "dependencies": [
+        "mpdecimal",
+        "openssl@3",
+        "sqlite",
+        "xz"
+      ],
+      "test_dependencies": [],
+      "recommended_dependencies": [],
+      "optional_dependencies": [],
+      "no_linkage_dependencies": [],
+      "uses_from_macos": [
+        "bzip2",
+        "expat",
+        "libedit",
+        "libffi",
+        "libxcrypt",
+        "ncurses"
+      ],
+      "uses_from_macos_bounds": [
+        {},
+        {
+          "since": "sequoia"
+        },
+        {},
+        {},
+        {},
+        {}
+      ],
+      "requirements": [],
+      "conflicts_with": [],
+      "conflicts_with_reasons": [],
+      "link_overwrite": [
+        "lib/python3.12/site-packages/pip*",
+        "lib/python3.12/site-packages/wheel*"
+      ],
+      "caveats": "Python is installed as\n  $HOMEBREW_PREFIX/bin/python3.12\n\nUnversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to\n`python3.12`, `python3.12-config`, `pip3.12` etc., respectively, are installed into\n  $HOMEBREW_PREFIX/opt/python@3.12/libexec/bin\n\nIf you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:\n  brew install python3\n\n`idle3.12` requires tkinter, which is available separately:\n  brew install python-tk@3.12\n\n`dbm.gnu` is available separately:\n  brew install python-gdbm@3.12\n\nFor more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python\n",
+      "installed": [
+        {
+          "sbom": "/opt/homebrew/Cellar/python@3.12/3.12.15_1/sbom.spdx.json",
+          "version": "3.12.15_1",
+          "used_options": [],
+          "built_as_bottle": true,
+          "poured_from_bottle": true,
+          "time": 1792668578,
+          "runtime_dependencies": [
+            {
+              "full_name": "mpdecimal",
+              "version": "4.0.1",
+              "revision": 0,
+              "bottle_rebuild": 1,
+              "pkg_version": "4.0.1",
+              "declared_directly": true,
+              "compatibility_version": 1
+            },
+            {
+              "full_name": "ca-certificates",
+              "version": "2026-10-20",
+              "revision": 0,
+              "bottle_rebuild": 0,
+              "pkg_version": "2026-10-20",
+              "declared_directly": false,
+              "compatibility_version": 1
+            },
+            {
+              "full_name": "openssl@3",
+              "version": "3.5.9",
+              "revision": 0,
+              "bottle_rebuild": 0,
+              "pkg_version": "3.5.9",
+              "declared_directly": true,
+              "compatibility_version": 1
+            },
+            {
+              "full_name": "readline",
+              "version": "8.3.6",
+              "revision": 0,
+              "bottle_rebuild": 0,
+              "pkg_version": "8.3.6",
+              "declared_directly": false,
+              "compatibility_version": 1
+            },
+            {
+              "full_name": "sqlite",
+              "version": "3.54.1",
+              "revision": 0,
+              "bottle_rebuild": 0,
+              "pkg_version": "3.54.1",
+              "declared_directly": true,
+              "compatibility_version": 1
+            },
+            {
+              "full_name": "xz",
+              "version": "5.8.4",
+              "revision": 0,
+              "bottle_rebuild": 0,
+              "pkg_version": "5.8.4",
+              "declared_directly": true,
+              "compatibility_version": 1
+            }
+          ],
+          "installed_on_request": true
+        }
+      ],
+      "linked_keg": "3.12.15_1",
+      "pinned": false,
+      "outdated": true,
+      "deprecated": false,
+      "deprecation_date": "2028-11-01",
+      "deprecation_reason": null,
+      "deprecation_replacement_formula": null,
+      "deprecation_replacement_cask": null,
+      "deprecate_args": {
+        "date": "2028-11-01",
+        "because": "deprecated_upstream",
+        "replacement_formula": null,
+        "replacement_cask": null
+      },
+      "disabled": false,
+      "disable_date": "2029-11-01",
+      "disable_reason": null,
+      "disable_replacement_formula": null,
+      "disable_replacement_cask": null,
+      "disable_args": {
+        "date": "2029-11-01",
+        "because": "deprecated_upstream",
+        "replacement_formula": null,
+        "replacement_cask": null
+      },
+      "post_install_steps": [
+        {
+          "paths": [
+            {
+              "base": "frameworks",
+              "path": "Python.framework/Versions/{{version.major_minor}}/lib/python{{version.major_minor}}/venv/scripts/**/*"
+            }
+          ],
+          "permissions": "u+w",
+          "non_recursive": true,
+          "guards": [
+            {
+              "condition": "on",
+              "value": "macos",
+              "id": "1"
+            }
+          ],
+          "type": "set_permissions"
+        },
+        {
+          "paths": [
+            {
+              "base": "lib",
+              "path": "python{{version.major_minor}}/venv/scripts/**/*"
+            }
+          ],
+          "permissions": "u+w",
+          "non_recursive": true,
+          "guards": [
+            {
+              "condition": "on",
+              "value": "linux",
+              "id": "2"
+            }
+          ],
+          "type": "set_permissions"
+        }
+      ],
+      "post_install_defined": false,
+      "service": null,
+      "tap_git_head": "152c85d1b9fe5e586bc14ee64a31142052614d4c",
+      "ruby_source_path": "Formula/p/python@3.12.rb",
+      "ruby_source_checksum": {
+        "sha256": "c4f505d395c0b49bb4fb3b3ba4aa6394c46c3dcdb364a9ad11f9cb22c17e5ce9"
+      }
+    }
+  ],
+  "casks": [
+    {
+      "token": "android-studio",
+      "full_token": "android-studio",
+      "old_tokens": [],
+      "tap": "homebrew/cask",
+      "name": [
+        "Android Studio"
+      ],
+      "desc": "Tools for building Android applications",
+      "homepage": "https://developer.android.com/studio/",
+      "url": "https://edgedl.me.gvt1.com/android/studio/install/2026.2.1.8/android-studio-rabbit1-mac_arm.dmg",
+      "url_specs": {},
+      "version": "2026.2.1.8,rabbit1",
+      "autobump": true,
+      "no_autobump_message": null,
+      "skip_livecheck": false,
+      "installed": "2026.1.3.8,quail3-patch1,AI-261.26222.65.2613.16025427",
+      "installed_time": 1786427252,
+      "bundle_version": null,
+      "bundle_short_version": null,
+      "pinned": false,
+      "pinned_version": null,
+      "outdated": false,
+      "sha256": "16d4a0f8a52413b51869fc18d5bdcdf9cecd38615cd7bb7cf14d51b99d2fef54",
+      "artifacts": [
+        {
+          "uninstall": [
+            {
+              "quit": "com.google.android.studio"
+            }
+          ]
+        },
+        {
+          "app": [
+            "Android Studio.app"
+          ],
+          "target": "/Applications/Android Studio.app"
+        },
+        {
+          "binary": [
+            "/Applications/Android Studio.app/Contents/MacOS/studio"
+          ],
+          "target": "/opt/homebrew/bin/studio"
+        },
+        {
+          "zap": [
+            {
+              "trash": [
+                "~/.android",
+                "~/Library/Android/sdk",
+                "~/Library/Application Support/Google/AndroidStudio2026.2",
+                "~/Library/Caches/Google/AndroidStudio2026.2",
+                "~/Library/Logs/Google/AndroidStudio2026.2",
+                "~/Library/Preferences/com.android.Emulator.plist",
+                "~/Library/Preferences/com.google.android.studio.plist",
+                "~/Library/Saved Application State/com.google.android.studio.savedState"
+              ],
+              "rmdir": [
+                "~/AndroidStudioProjects",
+                "~/Library/Android"
+              ]
+            }
+          ]
+        }
+      ],
+      "caveats": null,
+      "caveats_rosetta": null,
+      "depends_on": {
+        "macos": {}
+      },
+      "conflicts_with": null,
+      "container": null,
+      "rename": [],
+      "auto_updates": true,
+      "deprecated": false,
+      "deprecation_date": null,
+      "deprecation_reason": null,
+      "deprecation_replacement_formula": null,
+      "deprecation_replacement_cask": null,
+      "deprecate_args": null,
+      "disabled": false,
+      "disable_date": null,
+      "disable_reason": null,
+      "disable_replacement_formula": null,
+      "disable_replacement_cask": null,
+      "disable_args": null,
+      "tap_git_head": "b1406f5346f967a5b229d0d902d21f1ce1591c59",
+      "languages": [],
+      "ruby_source_path": "Casks/a/android-studio.rb",
+      "ruby_source_checksum": {
+        "sha256": "c48a98cbe76a87e00162c383cad7a35a8068bf16987384433d010c48be481e29"
+      }
+    },
+    {
+      "token": "autodesk-fusion",
+      "full_token": "autodesk-fusion",
+      "old_tokens": [
+        "autodesk-fusion360"
+      ],
+      "tap": "homebrew/cask",
+      "name": [
+        "Autodesk Fusion 360"
+      ],
+      "desc": "Integrated CAD, CAM, CAE, and PCB software",
+      "homepage": "https://www.autodesk.com/products/fusion-360/overview",
+      "url": "https://dl.appstreaming.autodesk.com/production/installers/Fusion%20Client%20Downloader.dmg",
+      "url_specs": {},
+      "version": "latest",
+      "autobump": true,
+      "no_autobump_message": null,
+      "skip_livecheck": false,
+      "installed": "latest",
+      "installed_time": 1756720039,
+      "bundle_version": null,
+      "bundle_short_version": null,
+      "pinned": false,
+      "pinned_version": null,
+      "outdated": false,
+      "sha256": "no_check",
+      "artifacts": [
+        {
+          "uninstall": [
+            {
+              "quit": [
+                "com.autodesk.dls.streamer.scriptapp.Autodesk-Fusion",
+                "com.autodesk.fusion"
+              ],
+              "script": {
+                "executable": "/opt/homebrew/Caskroom/autodesk-fusion/latest/Install Autodesk Fusion.app/Contents/MacOS/streamer",
+                "args": [
+                  "--process",
+                  "uninstall",
+                  "--quiet",
+                  "--silent",
+                  "--purge-incomplete"
+                ]
+              },
+              "delete": [
+                "~/Applications/Autodesk Fusion Service Utility.app",
+                "~/Applications/Autodesk Fusion.app",
+                "~/Applications/Remove Autodesk Fusion.app"
+              ]
+            }
+          ]
+        },
+        {
+          "installer": [
+            {
+              "script": {
+                "executable": "/opt/homebrew/Caskroom/autodesk-fusion/latest/Install Autodesk Fusion.app/Contents/MacOS/Fusion Client Downloader",
+                "args": [
+                  "--quiet"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "zap": [
+            {
+              "trash": [
+                "/Users/Shared/Autodesk",
+                "~/.config/Autodesk",
+                "~/Library/Application Support/Autodesk",
+                "~/Library/Application Support/Fusion 360",
+                "~/Library/Application Support/Fusion",
+                "~/Library/Caches/com.autodesk.AdskIdentityManager",
+                "~/Library/Caches/com.autodesk.fusion360",
+                "~/Library/Caches/com.autodesk.fusion360.senddmp",
+                "~/Library/Caches/com.Autodesk.streamer",
+                "~/Library/Caches/Fusion",
+                "~/Library/HTTPStorages/com.autodesk.fusion360",
+                "~/Library/HTTPStorages/com.autodesk.fusion360.binarycookies",
+                "~/Library/HTTPStorages/com.autodesk.fusion360.senddmp",
+                "~/Library/HTTPStorages/com.Autodesk.streamer",
+                "~/Library/Logs/autodesk.webdeploy.streamer.log",
+                "~/Library/Preferences/com.autodesk.adskidentitymanager.Autodesk Identity Manager.plist",
+                "~/Library/Preferences/com.autodesk.EAGLE 9.7.0.plist",
+                "~/Library/Preferences/com.autodesk.fusion360.plist",
+                "~/Library/Saved Application State/com.autodesk.fusion360.savedState",
+                "~/Library/Saved Application State/com.Autodesk.streamer.savedState",
+                "~/Library/WebKit/com.autodesk.AdskIdentityManager"
+              ]
+            }
+          ]
+        }
+      ],
+      "caveats": null,
+      "caveats_rosetta": null,
+      "depends_on": {
+        "macos": {}
+      },
+      "conflicts_with": null,
+      "container": null,
+      "rename": [],
+      "auto_updates": null,
+      "deprecated": false,
+      "deprecation_date": null,
+      "deprecation_reason": null,
+      "deprecation_replacement_formula": null,
+      "deprecation_replacement_cask": null,
+      "deprecate_args": null,
+      "disabled": false,
+      "disable_date": null,
+      "disable_reason": null,
+      "disable_replacement_formula": null,
+      "disable_replacement_cask": null,
+      "disable_args": null,
+      "tap_git_head": "b1406f5346f967a5b229d0d902d21f1ce1591c59",
+      "languages": [],
+      "ruby_source_path": "Casks/a/autodesk-fusion.rb",
+      "ruby_source_checksum": {
+        "sha256": "f56a6ca4e5e9a930c8b37adf7287616df07bc4ea39282d2a2eea424ba59c121d"
+      }
+    },
+    {
+      "token": "claude-code",
+      "full_token": "claude-code",
+      "old_tokens": [],
+      "tap": "homebrew/cask",
+      "name": [
+        "Claude Code"
+      ],
+      "desc": "Terminal-based AI coding assistant",
+      "homepage": "https://claude.com/product/claude-code",
+      "url": "https://downloads.claude.ai/claude-code-releases/2.1.308/darwin-arm64/claude",
+      "url_specs": {},
+      "version": "2.1.308",
+      "autobump": true,
+      "no_autobump_message": null,
+      "skip_livecheck": false,
+      "installed": "2.1.308",
+      "installed_time": 1792659573,
+      "bundle_version": null,
+      "bundle_short_version": null,
+      "pinned": false,
+      "pinned_version": null,
+      "outdated": false,
+      "sha256": "ca923c86ac84b30574a82331a05b6e066c27477a926ceaffe46a845a33e4dd37",
+      "artifacts": [
+        {
+          "binary": [
+            "claude"
+          ],
+          "target": "/opt/homebrew/bin/claude"
+        },
+        {
+          "zap": [
+            {
+              "trash": [
+                "~/.cache/claude",
+                "~/.claude.json*",
+                "~/.config/claude",
+                "~/.local/bin/claude",
+                "~/.local/share/claude",
+                "~/.local/state/claude",
+                "~/Library/Caches/claude-cli-nodejs"
+              ],
+              "rmdir": "~/.claude"
+            }
+          ]
+        }
+      ],
+      "caveats": null,
+      "caveats_rosetta": null,
+      "depends_on": {},
+      "conflicts_with": {
+        "cask": [
+          "claude-code@latest"
+        ]
+      },
+      "container": null,
+      "rename": [],
+      "auto_updates": null,
+      "deprecated": false,
+      "deprecation_date": null,
+      "deprecation_reason": null,
+      "deprecation_replacement_formula": null,
+      "deprecation_replacement_cask": null,
+      "deprecate_args": null,
+      "disabled": false,
+      "disable_date": null,
+      "disable_reason": null,
+      "disable_replacement_formula": null,
+      "disable_replacement_cask": null,
+      "disable_args": null,
+      "tap_git_head": "b1406f5346f967a5b229d0d902d21f1ce1591c59",
+      "languages": [],
+      "ruby_source_path": "Casks/c/claude-code.rb",
+      "ruby_source_checksum": {
+        "sha256": "71a287cf1170cb5ec9770b8f0ac609175c0be27ee87a3d167d49eb01205adef9"
+      }
+    },
+    {
+      "token": "fork",
+      "full_token": "fork",
+      "old_tokens": [],
+      "tap": "homebrew/cask",
+      "name": [
+        "Fork"
+      ],
+      "desc": "GIT client",
+      "homepage": "https://fork.dev/",
+      "url": "https://cdn.fork.dev/mac/Fork-2.70.2.dmg",
+      "url_specs": {},
+      "version": "2.70.2",
+      "autobump": true,
+      "no_autobump_message": null,
+      "skip_livecheck": false,
+      "installed": "2.70.2",
+      "installed_time": 1792661467,
+      "bundle_version": "2.70.2",
+      "bundle_short_version": "2.70.2",
+      "pinned": false,
+      "pinned_version": null,
+      "outdated": false,
+      "sha256": "7eb22a27a11f017d5b3ffac4650ac1eb47162bf851ff43e4425e913303222571",
+      "artifacts": [
+        {
+          "app": [
+            "Fork.app"
+          ],
+          "target": "/Applications/Fork.app"
+        },
+        {
+          "binary": [
+            "/Applications/Fork.app/Contents/Resources/fork_cli",
+            {
+              "target": "fork"
+            }
+          ],
+          "target": "/opt/homebrew/bin/fork"
+        },
+        {
+          "zap": [
+            {
+              "trash": [
+                "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.danpristupov.fork.sfl*",
+                "~/Library/Application Support/com.DanPristupov.Fork",
+                "~/Library/Application Support/Fork",
+                "~/Library/Caches/com.DanPristupov.Fork",
+                "~/Library/Caches/com.plausiblelabs.crashreporter.data/com.DanPristupov.Fork",
+                "~/Library/Cookies/com.DanPristupov.Fork.binarycookies",
+                "~/Library/HTTPStorages/com.DanPristupov.Fork",
+                "~/Library/HTTPStorages/com.DanPristupov.Fork.binarycookies",
+                "~/Library/Logs/Fork.log",
+                "~/Library/Preferences/com.DanPristupov.Fork.plist",
+                "~/Library/Saved Application State/com.DanPristupov.Fork.savedState",
+                "~/Library/WebKit/com.DanPristupov.Fork"
+              ]
+            }
+          ]
+        }
+      ],
+      "caveats": null,
+      "caveats_rosetta": null,
+      "depends_on": {
+        "macos": {}
+      },
+      "conflicts_with": {
+        "cask": [
+          "fork@dev"
+        ]
+      },
+      "container": null,
+      "rename": [],
+      "auto_updates": true,
+      "deprecated": false,
+      "deprecation_date": null,
+      "deprecation_reason": null,
+      "deprecation_replacement_formula": null,
+      "deprecation_replacement_cask": null,
+      "deprecate_args": null,
+      "disabled": false,
+      "disable_date": null,
+      "disable_reason": null,
+      "disable_replacement_formula": null,
+      "disable_replacement_cask": null,
+      "disable_args": null,
+      "tap_git_head": "b1406f5346f967a5b229d0d902d21f1ce1591c59",
+      "languages": [],
+      "ruby_source_path": "Casks/f/fork.rb",
+      "ruby_source_checksum": {
+        "sha256": "697c910c3c6f115a12da1e21d6d2384a94683a60b72ff5ed51762d1d7f6d086d"
+      }
+    },
+    {
+      "token": "jetbrains-toolbox",
+      "full_token": "jetbrains-toolbox",
+      "old_tokens": [],
+      "tap": "homebrew/cask",
+      "name": [
+        "JetBrains Toolbox"
+      ],
+      "desc": "JetBrains tools manager",
+      "homepage": "https://www.jetbrains.com/toolbox-app/",
+      "url": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-3.9.0.88839-arm64.dmg",
+      "url_specs": {},
+      "version": "3.9,3.9.0.88839",
+      "autobump": true,
+      "no_autobump_message": null,
+      "skip_livecheck": false,
+      "installed": "2.8.1,2.8.1.52155",
+      "installed_time": 1756722350,
+      "bundle_version": "3.9.0.88839",
+      "bundle_short_version": "3.9.0.88839",
+      "pinned": false,
+      "pinned_version": null,
+      "outdated": false,
+      "sha256": "af1a2e14be46e1bbca0e310a865029b0694d44c062105b9b847d557f3aa66760",
+      "artifacts": [
+        {
+          "uninstall": [
+            {
+              "launchctl": "com.jetbrains.toolbox",
+              "quit": "com.jetbrains.toolbox",
+              "signal": [
+                "TERM",
+                "com.jetbrains.toolbox"
+              ]
+            }
+          ]
+        },
+        {
+          "app": [
+            "JetBrains Toolbox.app"
+          ],
+          "target": "/Applications/JetBrains Toolbox.app"
+        },
+        {
+          "zap": [
+            {
+              "trash": [
+                "~/Library/Application Support/JetBrains/Toolbox",
+                "~/Library/Caches/JetBrains/Toolbox",
+                "~/Library/Logs/JetBrains/Toolbox",
+                "~/Library/Preferences/com.jetbrains.toolbox.plist",
+                "~/Library/Preferences/com.jetbrains.toolbox.renderer.plist",
+                "~/Library/Saved Application State/com.jetbrains.toolbox.savedState"
+              ],
+              "rmdir": [
+                "~/Library/Application Support/JetBrains",
+                "~/Library/Caches/JetBrains",
+                "~/Library/Logs/JetBrains"
+              ]
+            }
+          ]
+        }
+      ],
+      "caveats": null,
+      "caveats_rosetta": null,
+      "depends_on": {},
+      "conflicts_with": null,
+      "container": null,
+      "rename": [],
+      "auto_updates": true,
+      "deprecated": false,
+      "deprecation_date": null,
+      "deprecation_reason": null,
+      "deprecation_replacement_formula": null,
+      "deprecation_replacement_cask": null,
+      "deprecate_args": null,
+      "disabled": false,
+      "disable_date": null,
+      "disable_reason": null,
+      "disable_replacement_formula": null,
+      "disable_replacement_cask": null,
+      "disable_args": null,
+      "tap_git_head": "b1406f5346f967a5b229d0d902d21f1ce1591c59",
+      "languages": [],
+      "ruby_source_path": "Casks/j/jetbrains-toolbox.rb",
+      "ruby_source_checksum": {
+        "sha256": "84a138a1050bfa545300e84e46057999b01c0aa6108b0a7d35a7439cf55fde74"
+      }
+    },
+    {
+      "token": "xcodes-app",
+      "full_token": "xcodes-app",
+      "old_tokens": [
+        "xcodes"
+      ],
+      "tap": "homebrew/cask",
+      "name": [
+        "Xcodes"
+      ],
+      "desc": "Install and switch between multiple versions of Xcode",
+      "homepage": "https://github.com/XcodesOrg/XcodesApp",
+      "url": "https://github.com/XcodesOrg/XcodesApp/releases/download/v4.1.1b41/Xcodes.zip",
+      "url_specs": {},
+      "version": "4.1.1b41",
+      "autobump": true,
+      "no_autobump_message": null,
+      "skip_livecheck": false,
+      "installed": "4.1.1b41",
+      "installed_time": 1792661826,
+      "bundle_version": "41",
+      "bundle_short_version": "4.1.1",
+      "pinned": false,
+      "pinned_version": null,
+      "outdated": false,
+      "sha256": "65dc424dd06f92db1e192ac97db97861392cfe8568b72f89d7cc8836a7328c9c",
+      "artifacts": [
+        {
+          "app": [
+            "Xcodes.app"
+          ],
+          "target": "/Applications/Xcodes.app"
+        },
+        {
+          "zap": [
+            {
+              "trash": [
+                "/Library/PrivilegedHelperTools/com.robotsandpencils.XcodesApp.Helper",
+                "~/Library/Application Support/com.robotsandpencils.XcodesApp"
+              ]
+            }
+          ]
+        }
+      ],
+      "caveats": null,
+      "caveats_rosetta": null,
+      "depends_on": {
+        "macos": {
+          ">=": [
+            "14"
+          ]
+        }
+      },
+      "conflicts_with": null,
+      "container": null,
+      "rename": [],
+      "auto_updates": true,
+      "deprecated": false,
+      "deprecation_date": null,
+      "deprecation_reason": null,
+      "deprecation_replacement_formula": null,
+      "deprecation_replacement_cask": null,
+      "deprecate_args": null,
+      "disabled": false,
+      "disable_date": null,
+      "disable_reason": null,
+      "disable_replacement_formula": null,
+      "disable_replacement_cask": null,
+      "disable_args": null,
+      "tap_git_head": "b1406f5346f967a5b229d0d902d21f1ce1591c59",
+      "languages": [],
+      "ruby_source_path": "Casks/x/xcodes-app.rb",
+      "ruby_source_checksum": {
+        "sha256": "93944cfd5e425429f98ed1e990b7317ef367442fb52f0bf4b8f7121dd9aa4006"
+      }
+    }
+  ]
+}

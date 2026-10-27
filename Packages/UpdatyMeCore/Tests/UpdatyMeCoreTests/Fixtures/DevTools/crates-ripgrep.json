@@ -1,0 +1,8 @@
+{
+ "crate": {
+  "name": "ripgrep",
+  "max_stable_version": "15.2.0",
+  "newest_version": "15.2.0",
+  "repository": "https://github.com/BurntSushi/ripgrep"
+ }
+}

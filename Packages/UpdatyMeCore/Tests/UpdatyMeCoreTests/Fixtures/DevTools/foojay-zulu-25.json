@@ -1,0 +1,35 @@
+{
+ "result": [
+  {
+   "distribution": "zulu",
+   "major_version": 25,
+   "java_version": "25.0.4.1+1",
+   "distribution_version": "25.36.205",
+   "archive_type": "zip",
+   "package_type": "jdk",
+   "release_status": "ga",
+   "term_of_support": "lts"
+  },
+  {
+   "distribution": "zulu",
+   "major_version": 25,
+   "java_version": "25.0.4.1+1",
+   "distribution_version": "25.36.205",
+   "archive_type": "dmg",
+   "package_type": "jdk",
+   "release_status": "ga",
+   "term_of_support": "lts"
+  },
+  {
+   "distribution": "zulu",
+   "major_version": 25,
+   "java_version": "25.0.4.1+1",
+   "distribution_version": "25.36.205",
+   "archive_type": "zip",
+   "package_type": "jdk",
+   "release_status": "ga",
+   "term_of_support": "lts"
+  }
+ ],
+ "message": "6 package(s) found"
+}

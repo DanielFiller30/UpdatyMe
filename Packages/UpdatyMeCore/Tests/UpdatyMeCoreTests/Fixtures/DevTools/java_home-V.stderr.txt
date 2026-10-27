@@ -1,0 +1,2 @@
+Matching Java Virtual Machines (1):
+    25.0.5 (arm64) "Azul Systems, Inc." - "Zulu 25.38.107" /Library/Java/JavaVirtualMachines/zulu-25.jdk/Contents/Home

@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/*/.build/
+
+# Beta-Builds (scripts/build-beta.sh)
+*.zip
+*.sha256
+
+# Lokale Konfiguration und Secrets
+.env
+.env.*
+*.p12
+*.cer
+*.mobileprovision
+*.provisionprofile
+
+# Claude Code (lokale Einstellungen)
+.claude/settings.local.json

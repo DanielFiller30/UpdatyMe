@@ -1,0 +1,10 @@
+manifest-version = "2"
+date = "2026-10-15"
+
+[pkg.rustc]
+version = "1.99.1 (58cf8f9c3 2026-10-13)"
+git_commit_hash = "58cf8f9c35b355199727627d07ae34a4e2846d67"
+
+[pkg.rustc.target.aarch64-apple-darwin]
+available = true
+url = "https://static.rust-lang.org/dist/2026-10-15/rustc-1.99.1-aarch64-apple-darwin.tar.gz"

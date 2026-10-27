@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>iTerm2 Changelog - Final releases</title>
+		<link>http://iterm2.com/appcasts/final.xml</link>
+		<description>Stable releases and bugfixes.</description>
+		<language>en</language>
+                <item>
+                        <title>Version 3.6.11</title>
+                        <sparkle:releaseNotesLink>
+                                https://iterm2.com/appcasts/full_changes.txt
+                        </sparkle:releaseNotesLink>
+                        <pubDate>Tue, 02 Jun 2026 13:19:31 -0700</pubDate>
+                        <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+			<enclosure url="https://iterm2.com/downloads/stable/iTerm2-3_6_11.zip"
+                            sparkle:version="3.6.11"
+                            length="45124064"
+                            type="application/octet-stream"
+                            sparkle:edSignature="TIwXTOriiERdh64ZQsQSGqju9z0hepjJAIXjAaT5Aet9dpZwnKRIGvoqI4PH+SDt5wWYvfUF29fdoGc/w42BAw==" />
+                </item>
+                <item>
+                        <title>Version 3.7.6</title>
+                        <sparkle:releaseNotesLink>
+                                https://iterm2.com/appcasts/full_changes.txt
+                        </sparkle:releaseNotesLink>
+                        <pubDate>Thu, 15 Oct 2026 16:43:13 -0700</pubDate>
+                        <sparkle:minimumSystemVersion>13</sparkle:minimumSystemVersion>
+			<enclosure url="https://iterm2.com/downloads/stable/iTerm2-3_7_6.zip"
+                            sparkle:version="3.7.6"
+                            length="62526105"
+                            type="application/octet-stream"
+                            sparkle:edSignature="QkNOvgHUejYZtNBuVnrISxuQyxNl9fV/V5F10i4pLi7S+CdODm1k5kmVnwr8oa92o/hx3ckzuOjgxrwmhC/hCQ==" />
+                </item>
+	</channel>
+</rss>
+

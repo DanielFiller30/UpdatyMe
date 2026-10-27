@@ -1,0 +1,1 @@
+/bin/zsh: no such option: foo

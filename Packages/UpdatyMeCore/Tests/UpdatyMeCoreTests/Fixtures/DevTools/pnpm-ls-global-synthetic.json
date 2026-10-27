@@ -1,0 +1,10 @@
+[
+  {
+    "path": "/Users/fixture/Library/pnpm/global/v11",
+    "private": true,
+    "dependencies": {
+      "typescript": { "from": "typescript", "version": "5.6.3", "resolved": "https://registry.npmjs.org/typescript/-/typescript-5.6.3.tgz", "path": "/Users/fixture/Library/pnpm/global/v11/node_modules/typescript" },
+      "@angular/cli": { "from": "@angular/cli", "version": "18.2.0", "resolved": "https://registry.npmjs.org/@angular/cli/-/cli-18.2.0.tgz", "path": "/Users/fixture/Library/pnpm/global/v11/node_modules/@angular/cli" }
+    }
+  }
+]
