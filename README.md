@@ -10,7 +10,7 @@ tells you what's outdated, and updates it when *you* say so.
 ![macOS 26+](https://img.shields.io/badge/macOS-26%2B-black?logo=apple)
 ![Swift 6](https://img.shields.io/badge/Swift-6-F05138?logo=swift&logoColor=white)
 ![SwiftUI](https://img.shields.io/badge/UI-SwiftUI-0A84FF)
-![Open Source](https://img.shields.io/badge/open%20source-%E2%9D%A4-2ea44f)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 <img src="Media/screenshot_2.png" alt="UpdatyMe showing the Homebrew inventory with the inspector open" width="900">
 
@@ -133,5 +133,4 @@ If UpdatyMe saves you a few minutes every week, consider leaving a ⭐ — it he
 
 ## 📄 License
 
-<!-- TODO: add your license, e.g. MIT -->
-See [LICENSE](LICENSE) for details.
+UpdatyMe is released under the **MIT License** — see [LICENSE](LICENSE) for details.
