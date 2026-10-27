@@ -112,7 +112,17 @@ Something not detected? The diagnostics view shows the resolved environment, det
 
 ## 🚀 Getting started
 
-**Requirements:** macOS 26 or later, Xcode 26 to build from source.
+**Requirements:** macOS 26 or later.
+
+### Install with Homebrew
+
+```bash
+brew install --cask danielfiller30/tap/updatyme
+```
+
+### Build from source
+
+Requires Xcode 26.
 
 ```bash
 git clone https://github.com/DanielFiller30/UpdatyMe.git
